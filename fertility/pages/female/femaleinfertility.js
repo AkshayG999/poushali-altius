@@ -3,6 +3,7 @@ import styles from '../../styles/male.module.css'
 import NavbarF from '@/components/Navbar'
 import Footer from '@/components/Footer'
 
+
 const femaleinfertility = () => {
     
   return (

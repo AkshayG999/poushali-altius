@@ -60,9 +60,12 @@ query{
   }
 }
   `
-  
+  type DoctorData = {
+    doctors: Array<object> // Replace `any` with the actual type of your doctor object
+  }
 
-  const data=await graphQLClient.request(query)
+  const data = await graphQLClient.request(query) as DoctorData;
+
   console.log(data)
   const doctors=data.doctors
   return{
@@ -72,9 +75,18 @@ query{
   }
 }
 
+interface Doctor {
+  name: string;
+  specialty: string;
+  designation: string;
+  education: string;
+  slug: string;
+  available: string;
+  docimage:string;
 
+}
 
-const Home = ({doctors}) => {
+const Home = ({doctors}: {doctors: Doctor[]}) => {
   
 
     console.log(doctors)
