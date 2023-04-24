@@ -1,0 +1,37 @@
+.containerfooter{
+    width:100vw;
+    height: 80px;
+    color:black;
+    text-align: center;
+}
+
+   .footerwrap {
+    background-color:#eb4c87;
+    border-top:2px solid red;
+    position: fixed;
+    width: 12%;
+    bottom: 0;
+    color: white;
+    font-size: 15px;
+    border-radius:50px;
+    left:87%;
+    margin-bottom: 100px;
+   }
+   .footerwrap:hover{
+    background-color:#f9f8f8;
+    color:#eb4c87;
+    border-top:2px solid #f9f8f8;
+    box-shadow: 0 0 15px 10px #eb4c87;
+    cursor: pointer;
+   }
+   .footermain{
+    padding-top: 10px;
+   }
+
+   @media (max-width: 600px) {
+    .footerwrap {
+        font-size: 9px;
+
+        
+       }
+  }
