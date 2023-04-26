@@ -7,6 +7,7 @@ import tech from "../public/Cutting Edge Technology.png"
 import Humble from "../src/img/humble.png";
 import { themeContext } from "../src/Context";
 import { motion } from "framer-motion";
+import Image from 'next/image'
 
 
 const Services = () => {
@@ -58,7 +59,7 @@ const Services = () => {
           whileInView={{ left: "-4rem" }}
           transition={transition}
         >
-        <img className={styles.servicesimg} src="/Couples 1st approach.png"/>
+        <Image className={styles.servicesimg} src="/Couples 1st approach.png" alt="Altius image"/>
           <Card
             emoji={tech}
             heading={"Couples 1st approach"}

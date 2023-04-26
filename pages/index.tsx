@@ -5,11 +5,11 @@ import NavbarF from '@/components/Navbar'
 import SliderDemo from '@/components/SliderDemo'
 import Banner from '@/components/Banner'
 import Keypoints from '@/components/Keypoints'
-import Services from '@/components/Keypointtable'
+// import Services from '@/components/Keypointtable'
 
-import temp from '@/components/temp'
+// import temp from '@/components/temp'
 import BannerDoc from '@/components/Doctor'
-import DoctorCarousel from '@/components/DoctorCarousel'
+// import DoctorCarousel from '@/components/DoctorCarousel'
 import Footer from '@/components/Footer'
 import Footermain from '@/components/Footermain'
 // import ImageCarousel from '../src/component/Carousel/ImageCarousel'
@@ -17,10 +17,10 @@ import Footermain from '@/components/Footermain'
 import "react-multi-carousel/lib/styles.css";
 import Image from "next/image";
 // import apolloClient from "lib/apollo-graphcms";
-import Link from "next/link";
+// import Link from "next/link";
 import React from "react";
 // import { gql } from "@apollo/client";
-import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
@@ -28,12 +28,12 @@ import 'swiper/css/navigation';
 // import KeyboardArrowRightRoundedIcon from '@mui/icons-material/KeyboardArrowRightRounded';
 // import KeyboardArrowLeftRoundedIcon from '@mui/icons-material/KeyboardArrowLeftRounded';
 
-import { EffectCoverflow, Pagination, Navigation } from 'swiper';
+// import { EffectCoverflow, Pagination, Navigation } from 'swiper';
 import styles from '../styles/DoctorCarousel.module.css'
 
 // import { useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Container from 'react-bootstrap/Container';
+// import Container from 'react-bootstrap/Container';
 
 
 
@@ -84,16 +84,17 @@ query{
 }
 
 interface Doctor {
+  id: string;
   name: string;
   specialty: string;
   designation: string;
   education: string;
   slug: string;
   available: string;
-  docimage:  string;
   websiteurl: string;
-
+  docimage: { url: string };
 }
+
 
 const Home = ({ doctors }: { doctors: Doctor[] }) => {
 
@@ -123,7 +124,7 @@ const Home = ({ doctors }: { doctors: Doctor[] }) => {
         {doctors && doctors.map(doctors => (
           <div key={doctors.id} className={styles.wrapper}>
             <div>
-            <img src={doctors&& doctors.docimage && doctors.docimage.url ||""} className={styles.imgd} alt="slide_image" />
+            <Image src={doctors&& doctors.docimage && doctors.docimage.url ||""} className={styles.imgd} alt="slide_image" />
 
             </div>
             <div className={styles.drdetailswrap}>

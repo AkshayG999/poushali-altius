@@ -1,11 +1,12 @@
 import React from "react";
 import styles from '../styles/Card.module.css';
+import Image from 'next/image'
 
 
 const Card = ({emoji, heading, detail, color}) => {
   return (
     <div className={styles.card} style={{borderColor: {color}}}> 
-      <img src={emoji} alt="" />
+      <Image src={emoji} alt="" />
       <span>{heading}</span>
       <span>{detail}</span>
       <button className={styles.cbutton}>LEARN MORE</button>

@@ -1,4 +1,5 @@
 // // import React from 'react';
+import Image from 'next/image'
 // import { Swiper, SwiperSlide } from 'swiper/react';
 // import 'swiper/css';
 // import 'swiper/css/effect-coverflow';
@@ -207,7 +208,7 @@ const DoctorCarousel = ({doctors}) => {
           {doctors && doctors.map(doctors => (
     <div key={doctors.id} className={styles.wrapper}>
       <div>
-      <img src={doctors&& doctors.docimage && doctors.docimage.url} className={styles.imgd} alt="slide_image" />
+      <Image src={doctors&& doctors.docimage && doctors.docimage.url} className={styles.imgd} alt="slide_image" />
       </div>
       <div className={styles.drdetailswrap}>
               <section className={styles.drwrap}>

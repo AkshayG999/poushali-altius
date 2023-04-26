@@ -1,11 +1,11 @@
 import { GraphQLClient } from 'graphql-request';
 import React, { useState,useEffect } from 'react';
 import styles from '../styles/Slider.module.css'
-import { Button } from 'react-bootstrap'
+// import { Button } from 'react-bootstrap'
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Image from "next/image";
-import Form from "./form"
+// import Form from "./form"
 
 
 const url="https://api-ap-south-1.hygraph.com/v2/clgfef4yb0cy101t5eon24l0u/master"
@@ -49,7 +49,7 @@ export default function SliderDemo() {
      <Carousel className={styles.slider}>
       {!!sliders && Array.isArray(sliders) && sliders.map((image) => (
         <Carousel.Item key={sliders.id} className={styles.sliderItem}>
-                <img src={image.fertilityCarousel[0].url} className="carouselimg" key={image.id} alt={image.fertilitytext} />
+                <Image src={image.fertilityCarousel[0].url} className="carouselimg" key={image.id} alt={image.fertilitytext} />
                 {/* <Form/> */}
               
                 </Carousel.Item>

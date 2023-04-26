@@ -3,6 +3,7 @@ import { Popover, Transition } from "@headlessui/react";
 import { HiChevronDown } from "react-icons/hi";
 import { Fragment } from "react";
 import Link from "next/link";
+import Image from 'next/image'
 import { Tab } from "@headlessui/react";
 import {
   TreatmentHeader
@@ -85,7 +86,7 @@ export function Treatments() {
                           {TreatmentHeader.female.map((items) => (
                             <Link href={items.link} key={items.id}>
                               <div className="flex flex-col items-center justify-center hover:bg-pink-100 py-2 rounded-xl">
-                                <img
+                                <Image
                                   src={items.icon}
                                   alt={items.name}
                                   className="w-10 h-10 mx-auto"
@@ -103,7 +104,7 @@ export function Treatments() {
                           {TreatmentHeader.male.map((items) => (
                             <Link href={items.link} key={items.id}>
                               <div className="flex flex-col items-center justify-center hover:bg-pink-100 py-2 rounded-xl">
-                                <img
+                                <Image
                                   src={items.icon}
                                   alt={items.name}
                                   className="w-10 h-10 mx-auto"
@@ -121,7 +122,7 @@ export function Treatments() {
                           {TreatmentHeader.advanced.map((items) => (
                             <Link href={items.link} key={items.id}>
                               <div className="flex flex-col items-center justify-center hover:bg-pink-100 py-2 rounded-xl">
-                                <img
+                                <Image
                                   src={items.icon}
                                   alt={items.name}
                                   className="w-10 h-10 mx-auto"
