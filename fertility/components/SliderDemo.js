@@ -50,7 +50,7 @@ export default function SliderDemo() {
       {!!sliders && Array.isArray(sliders) && sliders.map((image) => (
         <Carousel.Item key={sliders.id} className={styles.sliderItem}>
                 <img src={image.fertilityCarousel[0].url} className="carouselimg" key={image.id} alt={image.fertilitytext} />
-                <Form/>
+                {/* <Form/> */}
               
                 </Carousel.Item>
         
