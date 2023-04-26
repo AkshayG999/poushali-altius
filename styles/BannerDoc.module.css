@@ -1,0 +1,134 @@
+
+.bannerwrap{
+    /* background-color: pink; */
+    background-image: linear-gradient(to right, #fbf8f9 , rgb(233, 113, 171));
+}
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    margin: 20px 90px 0 90px;
+    padding-bottom: 300px;
+    /* background-color: pink; */
+
+  }
+  .box{
+    /* background: blue; */
+    height:50px;
+  }
+  .bannerimg{
+    height: 400px;
+    width:600px;
+    margin-top: 50px;
+    margin-right: 70px;
+    /*padding-right: 100px; */
+}
+ /* #cardimg{
+    margin-top: 90px;
+    padding-right: 100px;
+    
+} */
+.bannerheader{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-family: Poppins,sans-serif;
+    /* margin-left: 220px; */
+    
+}
+.boxp{
+    color: rgb(6, 6, 6);
+    background-image: linear-gradient(to right, #f4b7cb , rgb(236, 72, 151));
+    margin-top: 100px;
+    padding:50px;
+
+    /* margin-left: 50px; */
+    
+}
+
+
+
+@media (max-width: 1200px) {
+
+  .bannerimg{
+    height: 300px;
+    width:400px;
+    align-items: center;
+    /*padding-right: 100px; */
+}
+}
+
+@media (max-width: 990px) {
+  .wrapper {
+    margin:0px 5px;
+    grid-template-columns: 1fr;
+
+  }
+  .boxp{
+    margin-top: 350px;
+    margin-right: 20px;
+    margin-left: 10px;
+    padding:20px;
+    background-image: linear-gradient(to right, #f4b7cb , rgb(251, 251, 251));
+  }
+  .bannerimg{
+    height: 300px;
+    width:400px;
+    align-items: center;
+    margin-left: 100px;
+    /*padding-right: 100px; */
+}
+.box{
+  /* background: blue; */
+  height:20px;
+}
+.bannerheader{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  font-family: Poppins,sans-serif;
+  padding-top: 500px;
+  /* margin-left: 220px; */
+  
+}
+
+}
+  
+@media (max-width: 600px) {
+  .wrapper {
+    margin:0px 5px;
+    grid-template-columns: 1fr;
+
+  }
+  .boxp{
+    margin-top: 350px;
+    margin-right: 40px;
+    padding:20px;
+    background-image: linear-gradient(to right, #f4b7cb , rgb(251, 251, 251));
+  }
+  .bannerimg{
+    height: 300px;
+    width:400px;
+    align-items: center;
+    margin-left: 35px;
+    /*padding-right: 100px; */
+}
+.box{
+  /* background: blue; */
+  height:20px;
+}
+.bannerheader{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  font-family: Poppins,sans-serif;
+  padding-top: 300px;
+  /* margin-left: 220px; */
+  
+}
+
+}
+
+@media (max-width: 450px) {
+
+}

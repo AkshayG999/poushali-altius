@@ -1,0 +1,1 @@
+import Carousel from '../src/component/Carousel'

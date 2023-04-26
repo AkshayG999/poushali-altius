@@ -1,0 +1,124 @@
+.imagegrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-gap: 10px; */
+    padding:50px 10px 0px 150px;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #fbf8f9 , rgb(233, 113, 171));
+  }
+  
+  .imagegrid img {
+    width: 70%;
+    height: 50%;
+    object-fit: cover;
+  }
+  .imgkeywrap{
+    height: 500px ;
+  }
+  .imagegridwrap{
+    background-image: linear-gradient(to right, #fbf8f9 , rgb(233, 113, 171));
+    height: 100px;
+   
+    
+  }
+  
+  .keyheader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eb4c87;
+    width: fit-content;
+    padding:20px 300px;
+    border-radius: 50px;
+    margin-left: 23%;
+  }
+  .captionwrap{
+    background-color: #fbf8f9;
+    width:70%;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  @media (max-width: 1200px) {
+    .imagegridwrap{
+      background-image: linear-gradient(to right, #fbf8f9 , rgb(233, 113, 171));
+      height: 200px;
+     
+      
+    }
+    .keyheader{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #eb4c87;
+      width:70%;
+      padding:10px 30px;
+      border-radius: 50px;
+     
+    }
+  }
+  
+  @media (max-width: 990px) {
+    .imagegridwrap{
+      background-image: linear-gradient(to right, #fbf8f9 , rgb(233, 113, 171));
+      height: 180px;
+     
+      
+    }
+    .keyheader{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #eb4c87;
+      width:70%;
+      padding:10px 30px;
+      border-radius: 50px;
+     
+    }
+  
+  }
+    
+  @media (max-width: 600px) {
+    .imagegrid img {
+      width: 80%;
+      height: 20%;
+    }
+    .imagegrid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      /* grid-gap: 10px; */
+      padding:0px;
+      margin-bottom: 0px;
+      grid-gap:0px;
+    }
+    .captionwrap{
+      background-color: #fbf8f9;
+      width:80%;
+      text-align: center;
+      padding-bottom: 10px;
+    }
+    .imagegridwrap{
+      background-image: linear-gradient(to right, #fbf8f9 , rgb(233, 113, 171));
+      height: 150px;
+     
+      
+    }
+    .keyheader{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #eb4c87;
+      width:70%;
+      padding:10px 30px;
+      border-radius: 50px;
+     
+    }
+
+  }
+  
+  @media (max-width: 450px) {
+  
+  }
+  
+  

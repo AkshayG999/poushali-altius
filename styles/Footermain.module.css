@@ -1,0 +1,40 @@
+.containerfooter{
+    /* display:flex;
+    flex-direction: row; */
+    background-image: linear-gradient(to right, #fbf8f9 , rgb(233, 113, 171));
+    color: black;
+    
+}
+.footerwrap{
+      display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.containerhead{
+    text-align: center;
+}
+.containerpara{
+    font-size: 30px;
+    font-family: "Poppins","sans-serif";
+    text-decoration: none;
+    margin-top: 20px;
+}
+.containerpara:hover{
+    cursor:pointer;
+ 
+
+}
+.containerlink{
+    text-decoration: none;
+    color: black;
+}
+.containerlink:hover{
+    color:#eb4c87;
+    
+}
+.containerimg{
+    height: 50px;
+    width: 50px;
+    padding-right: 10px;
+}
