@@ -124,7 +124,7 @@ const Home = ({ doctors }: { doctors: Doctor[] }) => {
         {doctors && doctors.map(doctors => (
           <div key={doctors.id} className={styles.wrapper}>
             <div>
-            <Image src={doctors&& doctors.docimage && doctors.docimage.url ||""} className={styles.imgd} alt="slide_image" />
+            <Image src={doctors&& doctors.docimage && doctors.docimage.url ||""} className={styles.imgd} alt="slide_image" height={180} width={200}/>
 
             </div>
             <div className={styles.drdetailswrap}>

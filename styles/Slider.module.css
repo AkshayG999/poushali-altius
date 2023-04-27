@@ -1,5 +1,5 @@
 .container{
-    width:100%;
+    width:100% !important;
     position:relative;
 }
 /* .sliderItem img{
@@ -47,5 +47,18 @@
 }
 
 .carouselimg{
-    width: 100%;
+    width: 100% !important;
+}
+
+@media (max-width: 550px) {
+    .container{
+        padding-top: 500px;
+    }
+    
+.carouselimg{
+    padding-top: 230px;
+    height: 550px !important;
+
+}
+
 }

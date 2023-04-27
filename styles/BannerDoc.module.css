@@ -17,8 +17,8 @@
     height:50px;
   }
   .bannerimg{
-    height: 400px;
-    width:600px;
+    height: 400px !important;
+    width:500px !important;
     margin-top: 50px;
     margin-right: 70px;
     /*padding-right: 100px; */

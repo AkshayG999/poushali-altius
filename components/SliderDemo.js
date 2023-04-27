@@ -8,6 +8,7 @@ import Image from "next/image";
 // import Form from "./form"
 
 
+
 const url="https://api-ap-south-1.hygraph.com/v2/clgfef4yb0cy101t5eon24l0u/master"
 const graphcms = new GraphQLClient(url,{
     headers:{
@@ -49,7 +50,9 @@ export default function SliderDemo() {
      <Carousel className={styles.slider}>
       {!!sliders && Array.isArray(sliders) && sliders.map((image) => (
         <Carousel.Item key={sliders.id} className={styles.sliderItem}>
-                <Image src={image.fertilityCarousel[0].url} className="carouselimg" key={image.id} alt={image.fertilitytext} />
+        
+                <Image src={image.fertilityCarousel[0].url} className={styles.carouselimg} key={image.id} alt={image.fertilitytext} height={600} width={1600}/>
+                
                 {/* <Form/> */}
               
                 </Carousel.Item>

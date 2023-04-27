@@ -1,25 +1,24 @@
 .containerItemlist{
     /* padding:5px 20px; */
     
-    text-align: center;
+    text-align: center !important ;
     
 }
 .containerItemlist:hover{
-    background-color: rgb(241, 201, 208);
-    border-radius: 10px;
+    background-color: rgb(241, 201, 208) !important;
+    border-radius: 10px !important;
 }
 
 .containerIteminfertility:hover{
-    background-color: rgb(241, 201, 208);
-    border-radius: 10px;
+    background-color: rgb(241, 201, 208) !important;
+    border-radius: 10px !important;
 }
 .containerIteminfertility{
     /* padding:5px 20px; */
-    width: fit-content;
-    text-align: center;
-    font-size: 11px;
+    width: max-content !important;
+    text-align: center !important;
+    font-size: 11px !important;
 }
-
 
 .containernav{
     width:100vw;
@@ -42,10 +41,12 @@
     color:#eb4c87;
 }
 .containertitle:hover{
-    background-color: #eb4c87;
+    background-color: #eb4c87 ;
     color:#fffcfd;
     
     border-radius: 5px;
+    padding-bottom: 10px;
+
 }
 .containerItemhwrapper{
     display:flex;
@@ -80,11 +81,7 @@
     width:200px;
     margin-left: 20%;
 }
-.containerItemh:hover{
-    background-color: rgb(241, 201, 208);
-    border-radius: 10px;
 
-}
 .containerItemh{
     justify-content: center;
     align-items: center;
@@ -92,10 +89,97 @@
     margin-left: 70px;
     max-width: 150px;
 }
+.containerItemh:hover{
+    border-radius: 10px !important;
+    background-color: rgb(241, 201, 208) !important;
+
+}
 
 .containerimg{
     height: 40px;
     width:40px;
+    
 }
 
+.containerlogo{
+    padding-bottom: 10px;
+}
 
+@media (max-width: 550px) {
+    .containernav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .containerwrap {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .containerbtn {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+  
+    .containerItemhwrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .containerItemhwrap {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .containerItemwrap {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .containerbtnwrap {
+      margin-top: 10px;
+    }
+  
+    .containerbtns {
+      margin-top: 10px;
+      width: 100%;
+    }
+  
+    .containertitle {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .containerItemlist {
+      display: block !important;
+      width: 100%;
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    .containerItemh {
+      display: block !important;
+      width: 100%;
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    .containerIteminfertility {
+      display: block !important;
+      width: 100%;
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+    .line {
+      display: none;
+    }
+  }

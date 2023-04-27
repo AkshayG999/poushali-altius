@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/Nav.module.css';
+import styles from '../styles/Navbar.module.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
