@@ -24,17 +24,17 @@ import {
 
 
 export default function NavbarF() {
-  const redirectUrl = 'http://localhost:3000/male/maleinfertility';
+  const redirectUrl = 'https://fertilityhospital.vercel.app/male/maleinfertility';
 
   const handleClick = () => {
     window.location.href = redirectUrl;
   }
-  const redirectUrlf = 'http://localhost:3000/female/femaleinfertility';
+  const redirectUrlf = 'https://fertilityhospital.vercel.app/female/femaleinfertility';
 
   const handleClickf = () => {
     window.location.href = redirectUrlf;
   }
-  const redirectUrla = 'http://localhost:3000/advanced/advance';
+  const redirectUrla = 'https://fertilityhospital.vercel.app/advanced/advance';
 
   const handleClicka = () => {
     window.location.href = redirectUrla;
