@@ -35,3 +35,41 @@
         
        }
   }
+  @media (max-width: 450px) {
+    .footerwrap {
+        font-size: 4px;
+
+        
+       }
+
+  }
+  @media (max-width: 750px) {
+
+       .footerwrap {
+        font-size: 10px;
+
+        
+       }
+
+  }
+  @media (max-width: 950px) {
+
+       .footerwrap {
+        font-size: 12px;
+   
+        
+       }
+
+}
+
+@media (max-width: 550px) {
+    
+
+    .footerwrap {
+     font-size: 8px;
+
+     
+    }
+
+}
+

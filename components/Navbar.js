@@ -59,6 +59,7 @@ export default function NavbarF() {
       <Container className={styles.containerwrap}>
         {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
         <div>
+        <Link className={styles.containerlinklogo} href="https://fertilityhospital.vercel.app/">
           <Image
       src="/Altius Fertility Logo.png"
       alt="My Image"
@@ -66,6 +67,7 @@ export default function NavbarF() {
       height={60}
       className={styles.containerlogo}
     />
+    </Link>
         </div>
         {/* <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
