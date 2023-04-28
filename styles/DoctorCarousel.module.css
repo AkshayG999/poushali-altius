@@ -190,7 +190,9 @@ font-family: Poppins,sans-serif;
       display: flex;
       flex-direction: row;
       align-items: center;
-      /* background-color: yellow; */
+      background-color: yellow;
+      width: 400px;
+      margin-left: 5px;
         }
         .heading {
     
@@ -198,4 +200,5 @@ font-family: Poppins,sans-serif;
           text-align: center;
           
         }
+
   }

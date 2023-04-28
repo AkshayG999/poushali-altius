@@ -1,3 +1,8 @@
+.containertitle{
+  color:#eb4c87 !important;
+}
+
+
 @media only screen and (min-width: 600px) and (max-width: 1600px) {
   .containertitlewrap{
     display: flex;
@@ -26,7 +31,7 @@
 
 .containernav{
     width:100vw;
-    height: 60px;
+    height: 80px;
     /* background-color: pink; */
     color:black;
 }
@@ -40,16 +45,16 @@
     align-items: center;
 }
 .containertitle{
-    margin-left: 100px;
-    padding:10px;
-    color:#eb4c87;
+    color:#eb4c87 !important;
+    margin-left: 80px;
+    padding:5px;
+    
 }
 .containertitle:hover{
     background-color: #eb4c87 ;
     color:#fffcfd;
     
     border-radius: 5px;
-    padding-bottom: 10px;
 
 }
 .containerItemhwrapper{
@@ -144,9 +149,6 @@
   margin-left: 35%;
 }
 .containernav{
-  
-  height: 60px;
-  /* background-color: rgb(210, 16, 48); */
   color:black;
 }
 
@@ -162,5 +164,73 @@
   display: flex;
   justify-content: space-around;
 }
- 
+.containerbreadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  
+}
+.containerbtn{
+  display: flex;
+  
+}
+.containerbtns{
+  display: flex;
+  padding: 5px 10px;
+  border-radius:5px;
+  background-color: rgb(199, 79, 99);
+  
+}
+.containerbtns:hover{
+  background-color: rgb(253, 249, 250);
+  box-shadow: 0 0 10px 0px grey;
+  color: #eb4c87;
+  
+}
+.containerbtnwrap{
+  padding-left:310px;
+  margin-top: 10px;
+}
+.containertitle{
+  color:#eb4c87 !important;
+  margin-left: 10px;
+  
+  
+}
+
+
+.containerItemlist:hover{
+  background-color: rgb(241, 201, 208) !important;
+  border-radius: 10px !important;
+}
+
+.containerIteminfertility:hover{
+  background-color: rgb(241, 201, 208) !important;
+  border-radius: 10px !important;
+}
+.containerIteminfertility{
+  /* padding:5px 20px; */
+  width: max-content !important;
+  text-align: center !important;
+  font-size: 11px !important;
+}
+.containerItemhwrapper{
+  display:flex;
+  flex-direction: row;
+}
+
+.containerwrap{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.containerItemlist{
+  /* padding:5px 20px; */
+  
+  text-align: center !important ;
+  
+}
+
+
 }

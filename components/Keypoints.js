@@ -22,7 +22,7 @@ const Keypoints = () => {
         {/* <img src="/Altius Care @Home.png" alt=""/> */}
         <h3>Altius Care</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
-        
+        <hr className={styles.linewrap}/>
     </div>
 
     <div className={styles.box}>
@@ -37,7 +37,7 @@ const Keypoints = () => {
         {/* <img src="/Couples 1st approach.png" alt=""/> */}
         <h3>Couples 1st approach</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
-        
+        <hr className={styles.linewrap}/> 
     </div>
 
     <div className={styles.box}>
@@ -52,7 +52,7 @@ const Keypoints = () => {
         {/* <img src="/Cutting Edge Technology.png" alt=""/> */}
         <h3>Cutting Edge Technology</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
-
+        <hr className={styles.linewrap}/>
     </div>
 
     <div className={styles.box}>
@@ -67,7 +67,7 @@ const Keypoints = () => {
         {/* <img src="/High Success Rate.png" alt=""/> */}
         <h3>High Success Rate</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
-   
+        <hr className={styles.linewrap}/>
     </div>
 
     <div className={styles.box}>
@@ -82,7 +82,7 @@ const Keypoints = () => {
         {/* <img src="/Insurance Accepted.png" alt=""/> */}
         <h3>Insurance Accepted</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
-
+        <hr className={styles.linewrap}/>
     </div>
 
     <div className={styles.box}>
@@ -97,8 +97,9 @@ const Keypoints = () => {
         {/* <img src="/Premium Facilities .png" alt=""/> */}
         <h3>Premium Facilities</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
-    
+        <hr className={styles.linewrap}/>
     </div>
+
     <div className={styles.box}>
     <Image
   src="/Transparency in cost and Treatments.png"
@@ -111,8 +112,9 @@ const Keypoints = () => {
         {/* <img src="/Transparency in cost and Treatments.png" alt=""/> */}
         <h3>Transparency in cost and Treatments</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
-    
+        <hr className={styles.linewrap}/>
     </div>
+   
     <div className={styles.box}>
     <Image
   src="/Zero Cost EMI.png"
@@ -125,8 +127,9 @@ const Keypoints = () => {
         {/* <img src="/Zero Cost EMI.png" alt=""/> */}
         <h3>Zero Cost EMI</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
-    
+        <hr className={styles.linewrap}/>
     </div>
+    
     <div className={styles.box}>
     <Image
   src="/Transparency in cost and Treatments.png"
@@ -139,8 +142,9 @@ const Keypoints = () => {
         {/* <img src="/Transparency in cost and Treatments.png" alt=""/> */}
         <h3>Affordable Treatments</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, commodi?</p>
-    
+        <hr className={styles.linewrap}/>
     </div>
+    
 
 </div>
 

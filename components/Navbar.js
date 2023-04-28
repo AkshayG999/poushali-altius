@@ -76,7 +76,11 @@ export default function NavbarF() {
             <Nav.Link href="#link">Link</Nav.Link> */}
             
             <div className={styles.containertitlewrap}>
-            <NavDropdown className={styles.containertitle} title="About us" id="basic-nav-dropdown">
+            <Navbar bg="light" expand="lg">
+  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse id="basic-navbar-nav">
+    <Nav className={styles.mrauto}>
+            <NavDropdown className={styles.containertitle} title="About us" id="basicnavdropdown">
               <NavDropdown.Item className={styles.containerItemlist} href="#action/3.1">
               <Image
       src="/fertility icon transparent.png"
@@ -443,7 +447,13 @@ export default function NavbarF() {
               </div>
             </NavDropdown>
 
-            <NavDropdown className={styles.containertitle} title="Cost" id="basic-nav-dropdown">
+
+
+    {/* navbar starts here for breadcrumb */}
+
+    
+      {/*---------------- Cost-------------- */}
+    <NavDropdown className={styles.containertitle} title="Cost" id="basic-nav-dropdown">
               <NavDropdown.Item className={styles.containerItemlist} href="#action/3.1">
               <Image
       src="/fertility icon transparent.png"
@@ -490,6 +500,7 @@ export default function NavbarF() {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
+            {/*---------------- Resources-------------- */}
             <NavDropdown className={styles.containertitle} title="Resources" id="basic-nav-dropdown">
               <NavDropdown.Item className={styles.containerItemlist} href="#action/3.1">
               <Image
@@ -537,19 +548,20 @@ export default function NavbarF() {
               Myth & Fact
               </NavDropdown.Item>
             </NavDropdown>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse className={styles.containerbreadcrumb} id="basic-navbar-nav">
-          <Nav className={styles.containerbtn}>
-          <div className={styles.containerbtnwrap}>
+    </Nav>
+    <div className={styles.containerbreadcrumb}>
+      <Nav className={styles.containerbtn}>
+        <div className={styles.containerbtnwrap}>
           <button onClick={handleClickC} className={styles.containerbtns}>Contact Us</button>
-          </div>
-          <div className={styles.containerbtnwrap}>
-          <button  onClick={handleClickA} className={styles.containerbtns}>Altius Cares</button>
-          </div>
-            {/* <Nav.Link className={styles.containerbtns} href="#home">Contact Us</Nav.Link>
-            <Nav.Link className={styles.containerbtns} href="#link">Altius Cares</Nav.Link> */}
-          </Nav>
-        </Navbar.Collapse>
+        </div>
+        <div className={styles.containerbtnwrap}>
+          <button onClick={handleClickA} className={styles.containerbtns}>Altius Cares</button>
+        </div>
+      </Nav>
+    </div>
+  </Navbar.Collapse>
+</Navbar>
+
         </div>
       </Container>
     </Navbar>
