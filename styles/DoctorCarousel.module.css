@@ -168,6 +168,21 @@ font-family: Poppins,sans-serif;
             }
 
   }
+  @media (max-width: 550px) {
+    .wrapper{
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      /* background-color: yellow; */
+        }
+        .heading {
+    
+          font-size: 2.5rem;
+          text-align: center;
+          
+        }
+  }
   
   @media (max-width: 450px) {
     .wrapper{
@@ -176,5 +191,11 @@ font-family: Poppins,sans-serif;
       flex-direction: row;
       align-items: center;
       /* background-color: yellow; */
+        }
+        .heading {
+    
+          font-size: 2rem;
+          text-align: center;
+          
         }
   }

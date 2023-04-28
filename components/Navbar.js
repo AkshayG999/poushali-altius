@@ -58,7 +58,7 @@ export default function NavbarF() {
     <Navbar bg="light" expand="lg">
       <Container className={styles.containerwrap}>
         {/* <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand> */}
-        <div>
+        <div className={styles.containerlogowrap}>
         <Link className={styles.containerlinklogo} href="https://fertilityhospital.vercel.app/">
           <Image
       src="/Altius Fertility Logo.png"
@@ -75,6 +75,7 @@ export default function NavbarF() {
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link> */}
             
+            <div className={styles.containertitlewrap}>
             <NavDropdown className={styles.containertitle} title="About us" id="basic-nav-dropdown">
               <NavDropdown.Item className={styles.containerItemlist} href="#action/3.1">
               <Image
@@ -537,7 +538,7 @@ export default function NavbarF() {
               </NavDropdown.Item>
             </NavDropdown>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse className={styles.containerbreadcrumb} id="basic-navbar-nav">
           <Nav className={styles.containerbtn}>
           <div className={styles.containerbtnwrap}>
           <button onClick={handleClickC} className={styles.containerbtns}>Contact Us</button>
@@ -549,6 +550,7 @@ export default function NavbarF() {
             <Nav.Link className={styles.containerbtns} href="#link">Altius Cares</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
+        </div>
       </Container>
     </Navbar>
     </div>

@@ -1,4 +1,8 @@
-.containerItemlist{
+@media only screen and (min-width: 600px) and (max-width: 1600px) {
+  .containertitlewrap{
+    display: flex;
+  }
+  .containerItemlist{
     /* padding:5px 20px; */
     
     text-align: center !important ;
@@ -104,86 +108,8 @@
 .containerlogo{
     padding-bottom: 10px;
 }
-
-@media (max-width: 550px) {
-    .containernav {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .containerwrap {
-      flex-direction: row;
-      align-items: center;
-    }
-  
-    .containerbtn {
-      flex-direction: column;
-      align-items: center;
-      margin-top: 20px;
-    }
-  
-    .containerItemhwrapper {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-      margin-top: 20px;
-    }
-  
-    .containerItemhwrap {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      margin-top: 20px;
-    }
-  
-    .containerItemwrap {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      margin-top: 20px;
-    }
-  
-    .containerbtnwrap {
-      margin-top: 10px;
-    }
-  
-    .containerbtns {
-      margin-top: 10px;
-      width: 100%;
-    }
-  
-    .containertitle {
-      width: 100%;
-      text-align: center;
-    }
-  
-    .containerItemlist {
-      display: block !important;
-      width: 100%;
-      text-align: center;
-      margin-top: 10px;
-    }
-  
-    .containerItemh {
-      display: block !important;
-      width: 100%;
-      text-align: center;
-      margin-top: 10px;
-    }
-  
-    .containerIteminfertility {
-      display: block !important;
-      width: 100%;
-      text-align: center;
-      margin-top: 10px;
-    }
-  
-    .line {
-      display: none;
-    }
-  }
-  @media (max-width: 1350px) {
+}
+  /* @media only screen and (min-width: 1350px) and  (max-width: 1550px) {
     .containerbtns{
         display: flex;
         
@@ -201,4 +127,40 @@
       .containerbtnwrap{
         padding-left:2px;
     }
+} */
+
+@media (max-width: 550px) {
+  .containerimg{
+    height: 40px;
+    width:40px;
+    
+}
+  .containerlogo{
+    padding-bottom: 5px;
+    
+}
+.containerlogowrap{
+  align-items: center;
+  margin-left: 35%;
+}
+.containernav{
+  
+  height: 60px;
+  /* background-color: rgb(210, 16, 48); */
+  color:black;
+}
+
+.containerlogowrap{
+  padding-bottom: 20px;
+}
+.containertitle{
+  color:#eb4c87;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+.containertitlewrap{
+  display: flex;
+  justify-content: space-around;
+}
+ 
 }
