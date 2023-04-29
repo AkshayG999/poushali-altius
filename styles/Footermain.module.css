@@ -91,6 +91,11 @@
   }
 
   @media (max-width: 450px) {
+    .footer{
+
+        padding-top: 20px;
+        background-color: #f4d6e1;
+    }
     .containerpara{
         font-size: 15px;
         font-family: "Poppins","sans-serif";
