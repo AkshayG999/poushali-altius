@@ -1,0 +1,138 @@
+.locationwrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    
+}
+.locationwrap{
+    background-color: white;
+    padding: 50px ;
+    margin-top: 50px;
+    
+    border-radius: 15px;
+    color:#eb4c87;
+    box-sizing: border-box;
+    border-color: #eb4c87;
+    border-style: dashed;
+    
+}
+.location{
+    padding-bottom: 10px;
+    text-shadow: 0 5px 10px rgba(0,0,0,.4);
+    font-size: 30px;
+}
+.btnD{
+    padding:5px 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #eb4c87;
+}
+.btnD:hover{
+    padding:5px 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color:#ffffff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.4);
+}
+.locationimg{
+    background-color: #eb4c87;
+    border-radius: 50%;
+    margin-bottom:20px;
+}
+.containerheading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#060000;
+    text-shadow: 0 5px 10px rgba(0,0,0,.5);
+    font-size: 50px;
+
+}
+.line{
+    width:550px;
+    margin-left:32%;
+}
+.details{
+    font-size: 15px;
+}
+.contactno{
+    font-weight: bold;
+}
+@media (max-width: 550px) {
+    .line{
+        width: 350px;
+        margin-left: 50px;
+      }
+      .locationwrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .locationwrap{
+        background-color: white;
+        padding: 50px ;
+        margin-top: 50px;
+        
+        border-radius: 15px;
+        color:#eb4c87;
+        box-sizing: border-box;
+        border-color: #eb4c87;
+        border-style: dashed;
+        
+    }
+  }
+
+  @media (max-width: 450px) {
+    .line{
+        width: 350px;
+        margin-left: 50px;
+      }
+      .locationwrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 5px;
+        
+    }
+    .locationwrap{
+        background-color: white;
+        padding: 50px ;
+        margin-top: 50px;
+        
+        border-radius: 15px;
+        color:#eb4c87;
+        box-sizing: border-box;
+        border-color: #eb4c87;
+        border-style: dashed;
+        
+    }
+  }
+
+  @media (max-width: 400px) {
+    .line{
+        width: 350px;
+        margin-left: 50px;
+      }
+      .locationwrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .locationwrap{
+        background-color: white;
+        padding: 50px ;
+        margin-top: 50px;
+        
+        border-radius: 15px;
+        color:#eb4c87;
+        box-sizing: border-box;
+        border-color: #eb4c87;
+        border-style: dashed;
+        
+    }
+  }

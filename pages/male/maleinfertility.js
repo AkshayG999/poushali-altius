@@ -1,7 +1,10 @@
 import React from 'react'
 import styles from '../../styles/male.module.css'
 import NavbarF from '@/components/Navbar'
+import Aboutus from '@/components/Aboutus'
+import Footermain from '@/components/Footermain'
 import Footer from '@/components/Footer'
+
 import Image from "next/image";
 
 const maleinfertility = () => {
@@ -204,7 +207,10 @@ const maleinfertility = () => {
                 />
                 {/* <img className={styles.imgwrap} src='/Male Fertility Icon/Affordable Treatments .png' width="400" height="300" alt=''/> */}
             </div>
+            
             <Footer />
+            <Aboutus/>
+            <Footermain/>
         </div>
 
     )

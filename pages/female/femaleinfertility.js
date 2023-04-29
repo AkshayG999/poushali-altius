@@ -2,6 +2,8 @@ import React from 'react'
 import styles from '../../styles/male.module.css'
 import NavbarF from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import Aboutus from '@/components/Aboutus'
+import Footermain from '@/components/Footermain'
 import Image from "next/image";
 
 
@@ -449,6 +451,8 @@ quasi aliquam eligendi, placeat qui corporis!</p>
 </div>
 
 <Footer/>
+<Aboutus/>
+<Footermain/>
     </div>
     
   )

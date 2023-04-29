@@ -2,6 +2,8 @@ import React from 'react'
 import styles from '../../styles/male.module.css'
 import NavbarF from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import Footermain from '@/components/Footermain'
+import Aboutus from '@/components/Aboutus'
 import Image from "next/image";
 
 const advance = () => {
@@ -202,8 +204,9 @@ quasi aliquam eligendi, placeat qui corporis!</p>
 
 </div>
 
-
 <Footer/>
+<Aboutus/>
+<Footermain/>
     </div>
     
   )

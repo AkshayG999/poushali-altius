@@ -11,3 +11,8 @@ module.exports = {
     domains: ['media.graphassets.com'],
   },
 }
+module.exports = {
+  images: {
+    domains: ['encrypted-tbn0.gstatic.com'],
+  },
+}

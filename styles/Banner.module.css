@@ -58,6 +58,7 @@
     justify-content: center;
     align-items:center;
     padding-top: 40px;
+    text-shadow: 0 5px 10px rgba(0,0,0,.5);
 }
 .boxp{
     color: rgb(6, 6, 6);

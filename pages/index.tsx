@@ -1,13 +1,13 @@
 import { gql, GraphQLClient } from 'graphql-request'
 // import Carousel from "react-multi-carousel";
-import NavbarF from '@/components/Navbar'
+import TreatmentsDropdown from '@/components/Navbar'
 // import Slider from '@/components/Slider'
 import SliderDemo from '@/components/SliderDemo'
 import Banner from '@/components/Banner'
 import Keypoints from '@/components/Keypoints'
-import Testimonials from '@/components/Testimonials'
-
-import TreatmentsDropdown from '@/components/navtemp'
+import Youtube from '@/components/Youtube'
+import Location from '@/components/Location'
+import Aboutus from '@/components/Aboutus'
 import BannerDoc from '@/components/Doctor'
 // import DoctorCarousel from '@/components/DoctorCarousel'
 import Footer from '@/components/Footer'
@@ -39,7 +39,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 export const getStaticProps = async () => {
-  const url = process.env.ENDPOINT || "https://boongg.com";
+  const url = process.env.ENDPOINT || "https://altiushospital.com";
 
   const graphQLClient = new GraphQLClient(url, {
     headers: {
@@ -120,6 +120,7 @@ const Home = ({ doctors }: { doctors: Doctor[] }) => {
       <div className={styles.swipewrapper}>
         <div className={styles.swipewrapper}>
           <h1 className={styles.heading}>Our Fertility Experts</h1>
+          <hr className={styles.line}/>
         </div>
         {doctors && doctors.map(doctors => (
           <div key={doctors.id} className={styles.wrapper}>
@@ -142,7 +143,9 @@ const Home = ({ doctors }: { doctors: Doctor[] }) => {
       {/* <temp/> */}
       <Keypoints />
       {/* <Services/> */}
-      {/* <Testimonials/> */}
+      <Location/>
+      <Aboutus/>
+      <Youtube/>
       <Footermain />
       <Footer />
 
