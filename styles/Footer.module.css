@@ -37,22 +37,22 @@
   }
   @media (max-width: 450px) {
     .footerwrap {
-        font-size: 8px !important;
-        width: 60px !important;
-        left:17% !important;
+
+        display: flex;
+        align-items: flex-end !important;
+        justify-content: flex-end !important;
         
        }
        .containerfooter{
         display: flex;
-        align-items: center;
+        align-items: flex-end !important;
+        justify-content: flex-end !important;
        }
 
   }
   @media (max-width: 400px) {
     .footerwrap {
-        font-size: 10px;
-        width: 100px;
-        right: 30%;
+        left:17% !important;
        }
        .containerfooter{
         display: flex;
