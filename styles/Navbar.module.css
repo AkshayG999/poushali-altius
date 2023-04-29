@@ -197,6 +197,7 @@
     width:40px;
     
 }
+
 .containerlogowrap{
   align-items: center;
   margin-left: 35%;
@@ -272,7 +273,7 @@
 .containerItemlist{
   /* padding:5px 20px; */
   
-  text-align: center !important ;
+  text-align: flex-start !important ;
   
 }
 .containerIteminfertility{
@@ -360,7 +361,7 @@
   /* padding:5px 20px; */
   width: max-content !important;
   text-align: center !important;
-  font-size: 11px !important;
+  font-size: 10px !important;
 }
 .containerItemhwrapper{
   display:flex;
@@ -372,6 +373,7 @@
   text-align: center;
   margin-left: 0px;
   max-width: 150px;
+  font-size: 11px;
 }
 
 .containerItemgrid{
@@ -383,11 +385,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-right: 10px;
 }
 .containerItemlist{
   /* padding:5px 20px; */
   
-  text-align: center !important ;
+  text-align: flex-start !important ;
   
 }
 .containerIteminfertility{

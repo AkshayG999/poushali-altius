@@ -77,7 +77,7 @@ export default function NavbarF() {
 
           <div className={styles.containertitlewrap}>
             <Navbar bg="light" expand="lg" >
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
+              <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navwrap}/>
               <Navbar.Collapse id="basic-navbar-nav" >
                 <Nav className={styles.mrauto}>
                   <NavDropdown className={styles.containertitle} title="About us" id="basicnavdropdown">
@@ -277,17 +277,6 @@ export default function NavbarF() {
                             </NavDropdown.Item>
                             <NavDropdown.Item onClick={handleClickf} className={styles.containerIteminfertility} href="#action/3.1">
                               <Image
-                                src="/FET transparent.png"
-                                alt="My Image"
-                                width={40}
-                                height={40}
-                                className={styles.containerimg}
-                              />
-                              {/* <img className={styles.containerimg} src="/FET transparent.png"/> */}
-                              FET
-                            </NavDropdown.Item>
-                            <NavDropdown.Item onClick={handleClickf} className={styles.containerIteminfertility} href="#action/3.1">
-                              <Image
                                 src="/IVF transparent.png"
                                 alt="My Image"
                                 width={40}
@@ -297,6 +286,18 @@ export default function NavbarF() {
                               {/* <img className={styles.containerimg} src="/IVF transparent.png"/> */}
                               IVF
                             </NavDropdown.Item>
+                            <NavDropdown.Item onClick={handleClickf} className={styles.containerIteminfertility} href="#action/3.1">
+                              <Image
+                                src="/FET transparent.png"
+                                alt="My Image"
+                                width={40}
+                                height={40}
+                                className={styles.containerimg}
+                              />
+                              {/* <img className={styles.containerimg} src="/FET transparent.png"/> */}
+                              FET
+                            </NavDropdown.Item>
+
                           </div>
                           <div className={styles.containerItemgrid}>
                             <NavDropdown.Item onClick={handleClickf} className={styles.containerIteminfertility} href="#action/3.1">
@@ -397,15 +398,16 @@ export default function NavbarF() {
                             </NavDropdown.Item>
                             <NavDropdown.Item onClick={handleClicka} className={styles.containerIteminfertility} href="#action/3.1">
                               <Image
-                                src="/PICSI transparent.png"
+                                src="/Sequential Transfer transparent.png"
                                 alt="My Image"
                                 width={40}
                                 height={40}
                                 className={styles.containerimg}
                               />
-                              {/* <img className={styles.containerimg} src="/PICSI transparent.png"/> */}
-                              PICSI
+                              {/* <img className={styles.containerimg} src="/Sequential Transfer transparent.png"/> */}
+                              Rejuvenation
                             </NavDropdown.Item>
+
                           </div>
                           <div>
                             <NavDropdown.Item onClick={handleClicka} className={styles.containerIteminfertility} href="#action/3.1">
@@ -432,15 +434,16 @@ export default function NavbarF() {
                             </NavDropdown.Item>
                             <NavDropdown.Item onClick={handleClicka} className={styles.containerIteminfertility} href="#action/3.1">
                               <Image
-                                src="/Sequential Transfer transparent.png"
+                                src="/PICSI transparent.png"
                                 alt="My Image"
                                 width={40}
                                 height={40}
                                 className={styles.containerimg}
                               />
-                              {/* <img className={styles.containerimg} src="/Sequential Transfer transparent.png"/> */}
-                              Rejuvenation
+                              {/* <img className={styles.containerimg} src="/PICSI transparent.png"/> */}
+                              PICSI
                             </NavDropdown.Item>
+
                           </div>
                         </div>
                       </div>
