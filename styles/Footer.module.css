@@ -4,6 +4,13 @@
     color:black;
     text-align: center;
 }
+   .footerwrap:hover{
+    border-top:2px solid #f9f8f8;
+    box-shadow: 0 0 15px 10px #eb4c87;
+    cursor: pointer;
+    background-color:#f9f8f8;
+    color:#eb4c87;
+   }
 
    .footerwrap {
     background-color:#eb4c87;
@@ -17,13 +24,7 @@
     left:87%;
     margin-bottom: 100px;
    }
-   .footerwrap:hover{
-    background-color:#f9f8f8;
-    color:#eb4c87;
-    border-top:2px solid #f9f8f8;
-    box-shadow: 0 0 15px 10px #eb4c87;
-    cursor: pointer;
-   }
+
    .footermain{
     padding-top: 10px;
    }
@@ -37,27 +38,35 @@
   }
   @media (max-width: 450px) {
     .footerwrap {
-        font-size: 4px;
-
-        
+        font-size: 12px;
+        width: 150px;
+        left:50%;
        }
 
   }
   @media (max-width: 750px) {
-
-       .footerwrap {
-        font-size: 10px;
-
-        
+    .footerwrap {
+        font-size: 12px;
+        width: 150px;
+        left:72%;
        }
 
   }
   @media (max-width: 950px) {
 
-       .footerwrap {
+    .footerwrap {
         font-size: 12px;
-   
-        
+        width: 150px;
+        left:77%;
+       }
+
+}
+@media (max-width: 1150px) {
+
+    .footerwrap {
+        font-size: 12px;
+        width: 150px;
+        left:84%;
        }
 
 }
@@ -66,43 +75,11 @@
     
 
     .footerwrap {
-     font-size: 8px;
-
-     
+     font-size: 12px;
+     width: 150px;
+     left:67%;
     }
 
 }
-@media (max-width: 450px) {
-    .containerfooter{
-        width:100px;
-        height: 80px;
-        color:black;
-        text-align: center;
-    }
-    
-       .footerwrap {
-        background-color:#eb4c87;
-        border-top:2px solid red;
-        position: fixed;
-        width: 10%;
-        bottom: 0;
-        color: white;
-        font-size: 15px;
-        border-radius:50px;
-        margin-bottom: 100px;
-       }
-       .footerwrap:hover{
-        background-color:#f9f8f8;
-        color:#eb4c87;
-        border-top:2px solid #f9f8f8;
-        box-shadow: 0 0 15px 10px #eb4c87;
-        cursor: pointer;
-       }
-       .footermain{
-        padding-top: 10px;
-        padding-left: 30px;
-        padding-right: 30px;
-       }
 
-}
 

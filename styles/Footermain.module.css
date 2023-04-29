@@ -1,3 +1,21 @@
+.footer{
+    margin-bottom: -50px;
+    padding-bottom: 10px;
+    padding-top: 50px;
+    background-color: #f4d6e1;
+}
+.footerContainerwrappers{
+    display:flex;
+    justify-content: space-around;
+}
+.containerhead{
+    color:#eb4c87
+}
+.footerLinks{
+    display:flex;
+    flex-direction: column;
+    -top: 20px;
+}
 .containerfooter{
     /* display:flex;
     flex-direction: row; */
@@ -5,12 +23,11 @@
     color: black;
     
 }
-.footerwrap{
-      display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-
+.containerlogo{
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
+
 .containerhead{
     text-align: center;
 }
@@ -25,12 +42,18 @@
  
 
 }
-.containerlink{
+.containerlinkitems{
     text-decoration: none;
     color: black;
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
 }
-.containerlink:hover{
-    color:#eb4c87;
+.containerlinkitems:hover{
+    color:#fdfcfc;
+    text-shadow: 5px 10px 15px 20px black;
+    
     
 }
 .containerimg{
@@ -38,12 +61,56 @@
     width: 50px;
     padding-right: 10px;
 }
+.copyright{
+    margin-left: 50px;
+    color: rgb(106, 101, 101);
+}
 @media (max-width: 550px) {
     .containerpara{
         font-size: 15px;
         font-family: "Poppins","sans-serif";
         text-decoration: none;
         margin-top: 20px;
+    }
+    .footerContainerwrappers{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+    }
+    .containerlogo{
+        
+        margin-left: 120px;
+        margin-bottom: 0px;
+    }
+    .copyright{
+        text-align: center;
+        margin-top: 50px;
+        color: rgb(106, 101, 101);
+    }
+
+  }
+
+  @media (max-width: 450px) {
+    .containerpara{
+        font-size: 15px;
+        font-family: "Poppins","sans-serif";
+        text-decoration: none;
+        margin-top: 20px;
+    }
+    .footerContainerwrappers{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+    }
+    .containerlogo{
+        
+        margin-left: 120px;
+        margin-bottom: 0px;
+    }
+    .copyright{
+        text-align: center;
+        margin-top: 50px;
+        color: rgb(106, 101, 101);
     }
 
   }

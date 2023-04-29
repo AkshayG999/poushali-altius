@@ -31,15 +31,20 @@
 .container .boxcontainer{
     display: grid;
     grid-template-columns: repeat(3, minmax(100px, 1fr));
-    gap:10px;
+    gap:30px;
+    box-sizing: border-box;
+    border-color: rgb(249, 4, 81);
+    border-width: 5px;
+
 }
 
 .container .boxcontainer .box{
     /* box-shadow: 0 5px 10px rgba(0,0,0,.2); */
+    box-sizing: border-box;
     border-radius: 15px;
-    /* border-color: rgb(249, 4, 81);
-    border-width: 5px; */
-    background: transparent;
+    border-color: rgb(249, 4, 81);
+    border-width: 5px;
+    background: white;
     text-align: center;
     padding:30px 20px;
 }
@@ -76,7 +81,7 @@
 }
 
 .container .boxcontainer .box:hover{
-    background:white;
+    background:transparent;
     box-shadow: 0 10px 15px rgba(0,0,0,.3);
     transform: scale(1.03);
 }
@@ -92,9 +97,9 @@
         padding:0px;
     }
     .container .boxcontainer .box:hover{
-        background:white;
-        /* box-shadow: 0 10px 15px rgba(0,0,0,.3);
-        transform: scale(1.03); */
+        background:transparent;
+        box-shadow: 0 10px 15px rgba(0,0,0,.3);
+        transform: scale(1.05);
     }
     .container .boxcontainer .box h3{
         color:#444;
@@ -118,7 +123,7 @@
         border-radius: 25px;
         /* border-color: rgb(249, 4, 81);
         border-width: 5px; */
-        background: transparent;
+        background: white;
         text-align: center;
         padding:30px 5px;
         height:350px;

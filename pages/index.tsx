@@ -5,9 +5,9 @@ import NavbarF from '@/components/Navbar'
 import SliderDemo from '@/components/SliderDemo'
 import Banner from '@/components/Banner'
 import Keypoints from '@/components/Keypoints'
-// import Services from '@/components/Keypointtable'
+import Testimonials from '@/components/Testimonials'
 
-// import temp from '@/components/temp'
+import TreatmentsDropdown from '@/components/navtemp'
 import BannerDoc from '@/components/Doctor'
 // import DoctorCarousel from '@/components/DoctorCarousel'
 import Footer from '@/components/Footer'
@@ -113,7 +113,7 @@ const Home = ({ doctors }: { doctors: Doctor[] }) => {
   return (
 
     <div>
-      <NavbarF />
+      <TreatmentsDropdown/>
       <SliderDemo />
       <Banner />
       <BannerDoc />
@@ -142,7 +142,7 @@ const Home = ({ doctors }: { doctors: Doctor[] }) => {
       {/* <temp/> */}
       <Keypoints />
       {/* <Services/> */}
-
+      {/* <Testimonials/> */}
       <Footermain />
       <Footer />
 
