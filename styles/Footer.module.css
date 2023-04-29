@@ -38,9 +38,7 @@
   @media (max-width: 450px) {
     .footerwrap {
 
-        display: flex;
-        align-items: flex-end !important;
-        justify-content: flex-end !important;
+        left: 57%;
         
        }
        .containerfooter{
