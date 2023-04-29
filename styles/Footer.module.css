@@ -48,6 +48,18 @@
        }
 
   }
+  @media (max-width: 400px) {
+    .footerwrap {
+        font-size: 10px;
+        width: 100px;
+        right: 30%;
+       }
+       .containerfooter{
+        display: flex;
+        align-items: center;
+       }
+
+  }
   @media (max-width: 750px) {
     .footerwrap {
         font-size: 12px;
