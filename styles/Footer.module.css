@@ -38,24 +38,17 @@
   @media (max-width: 450px) {
     .footerwrap {
 
-        left: 57%;
+        left: 67% !important;
         
        }
-       .containerfooter{
-        display: flex;
-        align-items: flex-end !important;
-        justify-content: flex-end !important;
-       }
+
 
   }
   @media (max-width: 400px) {
     .footerwrap {
-        left:17% !important;
+        left:67% !important;
        }
-       .containerfooter{
-        display: flex;
-        align-items: center;
-       }
+
 
   }
   @media (max-width: 750px) {
