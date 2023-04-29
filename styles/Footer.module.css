@@ -40,7 +40,11 @@
     .footerwrap {
         font-size: 12px;
         width: 150px;
-        right:20%;
+        
+       }
+       .containerfooter{
+        display: flex;
+        align-items: center;
        }
 
   }
