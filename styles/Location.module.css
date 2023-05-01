@@ -86,7 +86,7 @@
 
   @media (max-width: 450px) {
     .line{
-        width: 350px;
+        width: 300px;
         margin-left: 50px;
       }
       .locationwrapper{
