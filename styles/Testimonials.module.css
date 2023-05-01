@@ -16,8 +16,8 @@
 
   @media (max-width: 450px){
     .line{
-      width:200px;
-      margin-left:32%;
+      width:200px !important;
+      margin-left:32% !important;
   }
   }
   

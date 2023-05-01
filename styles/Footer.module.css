@@ -37,17 +37,17 @@
   }
   @media (max-width: 450px) {
     .footerwrap {
-        font-size: 12px;
-        width: 150px;
-        left:60%;
+        font-size: 12px !important;
+        width: 150px !important;
+        left:60% !important;
        }
 
 
   }
-  @media (max-width: 400px) {
+  /* @media (max-width: 400px) {
     .footerwrap {
         left:45% !important;
-       }
+       } */
 
 
   }
