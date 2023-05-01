@@ -37,9 +37,9 @@
   }
   @media (max-width: 450px) {
     .footerwrap {
-
-        left: 50% !important;
-        
+        font-size: 12px;
+        width: 150px;
+        left:60%;
        }
 
 
