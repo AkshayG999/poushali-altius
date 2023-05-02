@@ -1,8 +1,29 @@
 import React from 'react'
 import styles from '../styles/temp.module.css';
 import Image from 'next/image'
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 const Keypoints = () => {
+  const { ref, inView } = useInView({
+    threshold: 0.2,
+    triggerOnce: true
+  });
+
+  const variants = {
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.5,
+        ease: "easeOut"
+      }
+    },
+    hidden: {
+      opacity: 0,
+      y: 50
+    }
+  };
   return (
 <div className={styles.container}>
 
@@ -10,7 +31,12 @@ const Keypoints = () => {
 <hr className={styles.line}/>
 
 <div className={styles.boxcontainer}>
-
+    <motion.div
+      ref={ref}
+      initial="hidden"
+      animate={inView ? "visible" : "hidden"}
+      variants={variants}
+    >
     <div className={styles.box}>
     <Image
   src="/Altius Care @Home.png"
@@ -26,7 +52,15 @@ const Keypoints = () => {
         <button className={styles.morebtn}>Know More</button>
         <hr className={styles.linewrap}/>
     </div>
+</motion.div>
+    <motion.div
+      ref={ref}
+      initial="hidden"
+      animate={inView ? "visible" : "hidden"}
+      variants={variants}
+    >
 
+    
     <div className={styles.box}>
     <Image
   src="/Couples 1st approach.png"
@@ -42,6 +76,13 @@ const Keypoints = () => {
         <button className={styles.morebtn}>Know More</button>
         <hr className={styles.linewrap}/> 
     </div>
+    </motion.div>
+    <motion.div
+      ref={ref}
+      initial="hidden"
+      animate={inView ? "visible" : "hidden"}
+      variants={variants}
+    >
 
     <div className={styles.box}>
     <Image
@@ -58,7 +99,13 @@ const Keypoints = () => {
         <button className={styles.morebtn}>Know More</button>
         <hr className={styles.linewrap}/>
     </div>
-
+    </motion.div>
+    <motion.div
+      ref={ref}
+      initial="hidden"
+      animate={inView ? "visible" : "hidden"}
+      variants={variants}
+    >
     <div className={styles.box}>
     <Image
   src="/High Success Rate.png"
@@ -74,7 +121,13 @@ const Keypoints = () => {
         <button className={styles.morebtn}>Know More</button>
         <hr className={styles.linewrap}/>
     </div>
-
+    </motion.div>
+        <motion.div
+      ref={ref}
+      initial="hidden"
+      animate={inView ? "visible" : "hidden"}
+      variants={variants}
+    >
     <div className={styles.box}>
     <Image
   src="/Insurance Accepted.png"
@@ -90,7 +143,13 @@ const Keypoints = () => {
         <button className={styles.morebtn}>Know More</button>
         <hr className={styles.linewrap}/>
     </div>
-
+    </motion.div>
+        <motion.div
+      ref={ref}
+      initial="hidden"
+      animate={inView ? "visible" : "hidden"}
+      variants={variants}
+    >
     <div className={styles.box}>
     <Image
   src="/Premium Facilities .png"
@@ -106,7 +165,13 @@ const Keypoints = () => {
         <button className={styles.morebtn}>Know More</button>
         <hr className={styles.linewrap}/>
     </div>
-
+    </motion.div>
+        <motion.div
+      ref={ref}
+      initial="hidden"
+      animate={inView ? "visible" : "hidden"}
+      variants={variants}
+    >
     <div className={styles.box}>
     <Image
   src="/Transparency in cost and Treatments.png"
@@ -122,7 +187,13 @@ const Keypoints = () => {
         <button className={styles.morebtn}>Know More</button>
         <hr className={styles.linewrap}/>
     </div>
-   
+    </motion.div>
+        <motion.div
+      ref={ref}
+      initial="hidden"
+      animate={inView ? "visible" : "hidden"}
+      variants={variants}
+    >  
     <div className={styles.box}>
     <Image
   src="/Zero Cost EMI.png"
@@ -138,7 +209,13 @@ const Keypoints = () => {
         <button className={styles.morebtn}>Know More</button>
         <hr className={styles.linewrap}/>
     </div>
-    
+    </motion.div>
+        <motion.div
+      ref={ref}
+      initial="hidden"
+      animate={inView ? "visible" : "hidden"}
+      variants={variants}
+    >    
     <div className={styles.box}>
     <Image
   src="/Transparency in cost and Treatments.png"
@@ -154,6 +231,7 @@ const Keypoints = () => {
         <button className={styles.morebtn}>Know More</button>
         <hr className={styles.linewrap}/>
     </div>
+    </motion.div>
     
 
 </div>
