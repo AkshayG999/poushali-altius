@@ -27,8 +27,8 @@
   }
   @media (max-width: 450px) {
     .line{
-        width: 250px;
-        margin-left: 50px;
+        width: 250px !important;
+        margin-left: 60px !important;
       }
 
 
@@ -36,7 +36,7 @@
   @media (max-width: 400px) {
     .line{
         width: 250px;
-        margin-left: 40px;
+        margin-left: 60px;
       }
 
   }
