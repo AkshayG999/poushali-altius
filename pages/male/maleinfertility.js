@@ -17,11 +17,11 @@ const maleinfertility = () => {
             <div className={styles.imgmfwrap}>
                 <Image
 
-                    src="data:image/jpeg;base64,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"
-                    className={styles.imgwrap}
+                    src="/Male Fertility Icon/Altius Fertility Illustration 1.png"
+                    className={styles.imagewrap}
                     alt="My image"
-                    width={400}
-                    height={300}
+                    width={900}
+                    height={400}
                 />
             </div>
             <div>
@@ -30,7 +30,7 @@ const maleinfertility = () => {
                 </h1>
                 <div className={styles.pmwrap}>
                     <p >
-                        {"Male infertility is defined as the inability of a male to make a fertile female pregnant, also for a minimum of at least one year of unprotected intercourse."}
+                        {"Male infertility is a condition in which a man is unable to impregnate a fertile female partner despite regular, unprotected sexual intercourse. Infertility affects about 15% of couples, and male infertility accounts for about half of all infertility cases. The most common causes of male infertility are low sperm count, poor sperm motility, and abnormal sperm shape or size. Other factors that can contribute to male infertility include hormonal imbalances, genetic abnormalities, testicular trauma or infections, and lifestyle factors such as smoking, alcohol consumption, and drug use. Treatment options for male infertility include lifestyle changes, medication, surgery, or assisted reproductive techniques such as in vitro fertilization (IVF) or intracytoplasmic sperm injection (ICSI)."}
                     </p>
                 </div>
             </div>
@@ -48,10 +48,30 @@ const maleinfertility = () => {
                        {" A low sperm count, also called oligozoospermia, is where a man has fewer than 15 million sperm per millilitre of semen. Having a low sperm count can make it more difficult to conceive naturally, although successful pregnancies can still occur."}
                     </p>
                 </div>
-                <div className={styles.imgmwrap}>
+                <div className={styles.imagemwrap}>
                     <Image
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgmrrxamJcM3HnpDDUk-t1WxrAVENO4j30hAPSGyhMIg&usqp=CAU&ec=48665701"
-                        className={styles.imgwrap}
+                        src="/Male Fertility Icon/Sperm Donation.png"
+                        className={styles.imagemwrap}
+                        alt="My image"
+                        width={400}
+                        height={300}
+                    />
+                    {/* <img src="/public/Male Fertility Icon/Sperm Donation.png" alt="..."/> */}
+                </div>
+            </div>
+            <div className={styles.mwrapper}>
+                <div className={styles.mwrap}>
+                    <h2 className={styles.hwrap}>
+                        {"Poor sperm Movement"}
+                    </h2>
+                    <p className={styles.pwrap}>
+                       {" Poor sperm movement, also known as asthenozoospermia, is a common cause of male infertility. It is characterized by a low percentage of sperm that are able to move properly towards the female egg for fertilization. This can be caused by various factors, such as genetic abnormalities, infections, hormonal imbalances, and lifestyle choices. Poor sperm movement can be diagnosed through a semen analysis test. Treatment options may include lifestyle changes, medication, or assisted reproductive techniques such as intracytoplasmic sperm injection (ICSI) or in vitro fertilization (IVF). In some cases, addressing the underlying cause of poor sperm movement can lead to significant improvements in sperm motility and fertility outcomes."}
+                    </p>
+                </div>
+                <div className={styles.imagemwrap}>
+                    <Image
+                        src="/Male Fertility Icon/Sperm Donation.png"
+                        className={styles.imagemwrap}
                         alt="My image"
                         width={400}
                         height={300}
@@ -62,16 +82,56 @@ const maleinfertility = () => {
             <div className={styles.mwrapper}>
                 <div className={styles.mwrap}>
                     <h2 className={styles.hwrap}>
-                        {"Low Sperm Count"}
+                        {"Poor Sperm Quality"}
                     </h2>
                     <p className={styles.pwrap}>
-                       {" A low sperm count, also called oligozoospermia, is where a man has fewer than 15 million sperm per millilitre of semen. Having a low sperm count can make it more difficult to conceive naturally, although successful pregnancies can still occur."}
+                       {" Poor sperm quality is a common cause of male infertility, characterized by a low percentage of sperm that are of normal shape, size, and genetic structure. Poor sperm quality can be caused by various factors such as hormonal imbalances, genetic abnormalities, infections, and lifestyle choices. It can be diagnosed through a semen analysis test. Treatment options may include lifestyle changes, medication, or assisted reproductive techniques such as in vitro fertilization (IVF) or intracytoplasmic sperm injection (ICSI). Improving sperm quality may involve changes in diet, exercise, and reducing exposure to environmental toxins. In some cases, addressing the underlying cause of poor sperm quality can lead to significant improvements in sperm count and fertility outcomes"}
                     </p>
                 </div>
-                <div className={styles.imgmwrap}>
+                <div className={styles.imagemwrap}>
                     <Image
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgmrrxamJcM3HnpDDUk-t1WxrAVENO4j30hAPSGyhMIg&usqp=CAU&ec=48665701"
-                        className={styles.imgwrap}
+                        src="/Male Fertility Icon/Sperm Donation.png"
+                        className={styles.imagemwrap}
+                        alt="My image"
+                        width={400}
+                        height={300}
+                    />
+                    {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgmrrxamJcM3HnpDDUk-t1WxrAVENO4j30hAPSGyhMIg&usqp=CAU&ec=48665701" alt="..."/> */}
+                </div>
+            </div>
+            <div className={styles.mwrapper}>
+                <div className={styles.mwrap}>
+                    <h2 className={styles.hwrap}>
+                        {"Sperm Structural issue"}
+                    </h2>
+                    <p className={styles.pwrap}>
+                       {" Sperm structural issues are a common cause of male infertility, characterized by abnormal sperm shape and size. These structural issues can be caused by various factors such as genetic abnormalities, hormonal imbalances, infections, and lifestyle choices. They can be diagnosed through a semen analysis test. Treatment options may include lifestyle changes, medication, or assisted reproductive techniques such as in vitro fertilization (IVF) or intracytoplasmic sperm injection (ICSI). Improving sperm structure may involve changes in diet, exercise, and reducing exposure to environmental toxins. In some cases, addressing the underlying cause of sperm structural issues can lead to significant improvements in sperm morphology and fertility outcomes."}
+                    </p>
+                </div>
+                <div className={styles.imagemwrap}>
+                    <Image
+                        src="/Male Fertility Icon/Sperm Donation.png"
+                        className={styles.imagemwrap}
+                        alt="My image"
+                        width={400}
+                        height={300}
+                    />
+                    {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgmrrxamJcM3HnpDDUk-t1WxrAVENO4j30hAPSGyhMIg&usqp=CAU&ec=48665701" alt="..."/> */}
+                </div>
+            </div>
+            <div className={styles.mwrapper}>
+                <div className={styles.mwrap}>
+                    <h2 className={styles.hwrap}>
+                        {"Varicocele"}
+                    </h2>
+                    <p className={styles.pwrap}>
+                       {"Varicocele is a common condition that affects the veins in the scrotum. It is characterized by the enlargement of the veins, which can lead to decreased sperm quality and infertility in some men. Varicoceles are usually harmless and do not cause symptoms, but in some cases, they can cause pain or discomfort. Diagnosis of varicocele is typically done through a physical examination or ultrasound. Treatment options may include surgery, embolization, or observation. Varicoceles may be a contributing factor to male infertility, and addressing the condition can lead to improved sperm quality and fertility outcomes."}
+                    </p>
+                </div>
+                <div className={styles.imagemwrap}>
+                    <Image
+                        src="/Male Fertility Icon/Varicocele.png"
+                        className={styles.imagemwrap}
                         alt="My image"
                         width={400}
                         height={300}
@@ -100,7 +160,7 @@ const maleinfertility = () => {
                 />
                 {/* <img className={styles.imgwrap} src='/Male Fertility Icon/TESA_PESA.png' width="400" height="300" alt=''/> */}
 
-                <p className={styles.pwrap}>{"The fertilityworld suggests that any male between 18 to 35 years may freeze their sperm (preserve) as the sperm tends to be healthiest at this stage of life because you never know what kind of environmental exposures you’ll come across or what health conditions could occur. Some of the medical conditions and lifestyles that made you preserve your sperm:"}</p>
+                <p className={styles.pwrap}>{"Computer-assisted semen analysis (CASA) is a technique used to evaluate various parameters of sperm quality, such as sperm count, motility, and morphology. CASA uses specialized software to analyze video recordings of sperm samples, providing a more accurate and objective assessment of sperm quality compared to traditional manual methods. CASA can provide valuable information to help diagnose male infertility and guide treatment options. It is a useful tool for both research and clinical settings. However, it is important to note that CASA is not a replacement for a comprehensive semen analysis by a qualified healthcare professional, and should only be used as an adjunct to traditional methods"}</p>
             </div>
             <h1 className={styles.headingmwrap}>
                 {"Testicular Sperm Aspiration"} <br />
@@ -160,25 +220,25 @@ const maleinfertility = () => {
                     height={300}
                 />
                 {/* <img className={styles.imgwrap} src='/Male Fertility Icon/Sperm Donation.png' width="400" height="300" alt=''/> */}
-                <p className={styles.pwrap}>{"An assisted reproductive treatment, in TESA testicular tissue is extracted using a needle connected to a syringe and injected through the skin of the man's scrotum. PESA entails inserting a needle into the man's epididymis, the tube that links the testicles, to retrieve sperm."}</p>
+                <p className={styles.pwrap}>{"Sperm donation is the process of providing sperm to be used for assisted reproductive techniques such as in vitro fertilization (IVF) or intrauterine insemination (IUI). Sperm donors may choose to donate for a variety of reasons, including helping couples who struggle with infertility or single individuals who wish to become parents. Donors typically undergo a thorough screening process to ensure they meet the necessary health and genetic requirements. Donors may choose to remain anonymous or be known to the recipient. Sperm donation can provide a viable option for those who cannot conceive naturally, and has helped many individuals and couples achieve their dream of parenthood"}</p>
 
             </div>
             <h1 className={styles.headingmwrap}>
-                {"Varicocele"}
+                {"Andrology"}
             </h1>
             <div className={styles.bodywrap}>
-                <p className={styles.pwrap}>{"The fertilityworld suggests that any male between 18 to 35 years may freeze their sperm (preserve) as the sperm tends to be healthiest at this stage of life because you never know what kind of environmental exposures you’ll come across or what health conditions could occur. Some of the medical conditions and lifestyles that made you preserve your sperm:"}</p>
+                <p className={styles.pwrap}>{"Andrology is a branch of medicine that focuses on the study and treatment of male reproductive health. It encompasses a wide range of conditions, including male infertility, erectile dysfunction, and hormonal imbalances. Andrology professionals may include urologists, endocrinologists, and reproductive specialists. Diagnosis of male reproductive issues may involve physical exams, blood tests, and semen analysis. Treatment options may include medication, lifestyle changes, or assisted reproductive techniques."}</p>
                 <Image
-                    src="/Male Fertility Icon/Varicocele.png"
+                    src="/Male Fertility Icon/Affordable Treatments .png"
                     className={styles.imgwrap}
                     alt="My image"
                     width={400}
                     height={300}
                 />
-                {/* <img className={styles.imgwrap} src='/Male Fertility Icon/Varicocele.png' width="400" height="300" alt=''/> */}
+                {/* <img className={styles.imgwrap} src='/Male Fertility Icon/Affordable Treatments .png' width="400" height="300" alt=''/> */}
             </div>
             <h1 className={styles.headingmwrap}>
-                {"Andrology"}
+                {"Affordable Treatments"}
             </h1>
             <div className={styles.bodywrap}>
                 <Image
@@ -189,24 +249,11 @@ const maleinfertility = () => {
                     height={300}
                 />
                 {/* <img className={styles.imgwrap} src='/Male Fertility Icon/Andrology Services .png' width="400" height="300" alt=''/> */}
-                <p className={styles.pwrap}>{"An assisted reproductive treatment, in TESA testicular tissue is extracted using a needle connected to a syringe and injected through the skin of the man's scrotum. PESA entails inserting a needle into the man's epididymis, the tube that links the testicles, to retrieve sperm."}</p>
+                <p className={styles.pwrap}>{" There are a variety of options available to help make fertility treatments more affordable.It is important to do research and discuss options with a healthcare professional to find the most affordable and effective treatment options that fit individual needs and budget.We Altius Fertility Provide affordable Treatment."}</p>
 
             </div>
 
-            <h1 className={styles.headingmwrap}>
-                {"Affordable Treatments"}
-            </h1>
-            <div className={styles.bodywrap}>
-                <p className={styles.pwrap}>{"The fertilityworld suggests that any male between 18 to 35 years may freeze their sperm (preserve) as the sperm tends to be healthiest at this stage of life because you never know what kind of environmental exposures you’ll come across or what health conditions could occur. Some of the medical conditions and lifestyles that made you preserve your sperm:"}</p>
-                <Image
-                    src="/Male Fertility Icon/Affordable Treatments .png"
-                    className={styles.imgwrap}
-                    alt="My image"
-                    width={400}
-                    height={300}
-                />
-                {/* <img className={styles.imgwrap} src='/Male Fertility Icon/Affordable Treatments .png' width="400" height="300" alt=''/> */}
-            </div>
+
             
             <Footer />
             <Aboutus/>

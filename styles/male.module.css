@@ -16,6 +16,9 @@
     width: 100%;
     height: 100%;
   }
+  .pmwrap{
+    margin: 10px 150px;
+  }
   .pwrap{
     color: black;
   }
@@ -46,12 +49,13 @@
     gap: 10rem;
     align-items: center;
     width: 100%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
   .mwrapper{
     align-items:center;
     justify-content: center;
-    margin-left: 150px;
+    margin-left: 50px;
+    margin-right: 60px;
   }
   .hwrap{
     color:#eb4c87;
