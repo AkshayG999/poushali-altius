@@ -99,7 +99,7 @@ const femaleinfertility = () => {
 />
       {/* <img className={styles.imgwrap} src='/Female Fertility Icon/OI_IT.png' width="400" height="300" alt=''/> */}
 
-<p className={styles.pwrap}>Ovulation Induction/Intrauterine Insemination, which is a type of fertility treatment often used to help couples who are struggling to conceive due to ovulation problems or unexplained infertility.The treatment involves the use of medications to stimulate the ovaries to produce one or more eggs, followed by the placement of sperm directly into the uterus through a catheter. This process is timed with the woman's ovulation cycle to increase the chances of fertilization.OI/IT is a relatively simple and affordable treatment option that can be highly effective for some couples. It is often recommended as a first-line treatment for mild to moderate infertility before moving on to more invasive procedures such as IVF.</p>
+<p className={styles.pwrap}>{"Ovulation Induction/Intrauterine Insemination, which is a type of fertility treatment often used to help couples who are struggling to conceive due to ovulation problems or unexplained infertility.The treatment involves the use of medications to stimulate the ovaries to produce one or more eggs, followed by the placement of sperm directly into the uterus through a catheter. This process is timed with the woman's ovulation cycle to increase the chances of fertilization.OI/IT is a relatively simple and affordable treatment option that can be highly effective for some couples. It is often recommended as a first-line treatment for mild to moderate infertility before moving on to more invasive procedures such as IVF."}</p>
 </div>
     <h1 className={styles.headingmwrap}>
     ICSI
