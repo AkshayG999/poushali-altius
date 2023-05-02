@@ -64,11 +64,6 @@ export default function TreatmentsDropdown() {
     const handleClickcsr = () => {
         window.location.href = redirectUrlcsr;
     }
-    const redirectUrlmc = 'https://altiushospital.com/awards/';
-
-    const handleClickmc = () => {
-        window.location.href = redirectUrlmc;
-    }
     const redirectUrlaw = 'https://altiushospital.com/awards/';
 
     const handleClickaw = () => {
@@ -152,17 +147,6 @@ export default function TreatmentsDropdown() {
                                         />
                                         {/* <img className={styles.containerimg} src="/fertility icon transparent.png"/> */}
                                         CSR
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Item onClick={handleClickmc} className={styles.containerItemlist} href="#action/3.3">
-                                        <Image
-                                            src="/fertility icon transparent.png"
-                                            alt="My Image"
-                                            width={40}
-                                            height={40}
-                                            className={styles.containerimg}
-                                        />
-                                        {/* <img className={styles.containerimg} src="/fertility icon transparent.png"/> */}
-                                        Mc
                                     </NavDropdown.Item>
                                     
                                     <NavDropdown.Item onClick={handleClickaw} className={styles.containerItemlist} href="#action/3.4">

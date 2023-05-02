@@ -34,6 +34,43 @@ import Link from 'next/link';
 import Image from 'next/image'
 
 const Footermain = () => {
+
+  //------------------------ about us-----------------------//
+
+  const redirectUrlvm = 'https://altiushospital.com/our-vision-and-mission/';
+
+  const handleClickvm = () => {
+      window.location.href = redirectUrlvm;
+  }
+  const redirectUrlm = 'https://altiushospital.com/management/';
+
+  const handleClickm = () => {
+      window.location.href = redirectUrlm;
+  }
+  const redirectUrlcsr = 'https://altiushospital.com/corporate-social-responsibility/';
+
+  const handleClickcsr = () => {
+      window.location.href = redirectUrlcsr;
+  }
+  const redirectUrlaw = 'https://altiushospital.com/awards/';
+
+  const handleClickaw = () => {
+      window.location.href = redirectUrlaw;
+  }
+// ------------------useful links-------------------//
+
+  const redirectUrlhelp = 'https://altiushospital.com/altius-cares/';
+
+  const handleClickhelp = () => {
+      window.location.href = redirectUrlhelp;
+  }
+  const redirectUrlap = 'https://altiushospital.com/our-doctors/';
+
+  const handleClickap = () => {
+      window.location.href = redirectUrlap;
+  }
+  
+
   return (
     <footer className={styles.footer}>
     
@@ -72,10 +109,8 @@ const Footermain = () => {
         <h2 className={styles.containerhead}>Useful links</h2>
         <hr/>
         <div className={styles.footerLinks}>
-        <p className={styles.containerlinkitems}>Emergency</p>
-                 <p className={styles.containerlinkitems}>Ambulance</p>
-                 <p className={styles.containerlinkitems}>Appoinments</p>
-                 <p className={styles.containerlinkitems}>Help</p>
+                 <p onClick={handleClickap} className={styles.containerlinkitems}>Appoinments</p>
+                 <p onClick={handleClickhelp} className={styles.containerlinkitems}>Help</p>
         </div>
       </div>
 
@@ -83,11 +118,10 @@ const Footermain = () => {
         <h2 className={styles.containerhead}>About us</h2>
         <hr/>
         <div className={styles.footerLinks}>
-          <Link className={styles.containerlinkitems} href="#">Founders & Directors</Link>
-          <Link className={styles.containerlinkitems} href="#">Vission & Mission</Link>
-          <Link className={styles.containerlinkitems} href="#">CSR</Link>
-          <Link className={styles.containerlinkitems} href="#">MC</Link>
-          <Link className={styles.containerlinkitems} href="#">Awards</Link>
+          <Link onClick={handleClickm} className={styles.containerlinkitems} href="#">Founders & Directors</Link>
+          <Link onClick={handleClickvm} className={styles.containerlinkitems} href="#">Vission & Mission</Link>
+          <Link onClick={handleClickcsr} className={styles.containerlinkitems} href="#">CSR</Link>
+          <Link onClick={handleClickaw} className={styles.containerlinkitems} href="#">Awards</Link>
         </div>
       </div>
       <div className={styles.footerContainer}>
