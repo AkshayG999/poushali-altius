@@ -4,7 +4,7 @@ import NavbarF from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import Aboutus from '@/components/Aboutus'
 import Footermain from '@/components/Footermain'
-import FAQ from '@/components/Faq'
+// import FAQ from '@/components/Faq'
 import Image from "next/image";
 import Card from 'react-bootstrap/Card';
 
@@ -139,7 +139,7 @@ const femaleinfertility = () => {
     {"Contact us today to schedule a consultation and learn more about how we can help you on your fertility journey."}
     </p>
 
-<FAQ/>
+{/* <FAQ/> */}
 <Footer/>
 <Aboutus/>
 <Footermain/>
