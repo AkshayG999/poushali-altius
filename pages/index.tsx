@@ -1,7 +1,7 @@
 import { gql, GraphQLClient } from 'graphql-request'
 // import Carousel from "react-multi-carousel";
 import TreatmentsDropdown from '@/components/Navbar'
-import FAQ from '@/components/Faq'
+// import FAQ from '@/components/Faq'
 import SliderDemo from '@/components/SliderDemo'
 import Banner from '@/components/Banner'
 import Keypoints from '@/components/Keypoints'
@@ -146,7 +146,7 @@ const Home = ({ doctors }: { doctors: Doctor[] }) => {
       <Location/>
       <Aboutus/>
       <Youtube/>
-      <FAQ/>
+      {/* <FAQ/> */}
       <Footermain />
       <Footer />
 
