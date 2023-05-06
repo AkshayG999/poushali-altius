@@ -170,6 +170,7 @@ export default function TreatmentsDropdown() {
                                     onMouseEnter={() => setKeepOpen(true)}
                                     onMouseLeave={() => setKeepOpen(false)}
                                 >
+                               
                                     <div className={styles.containerItemhwrapper}>
                                         <NavDropdown.Item activee={selectedOption === 'male'} className={styles.containerItemh} onClick={() => handleOptionSelect('male')}>
                                             <Image
@@ -202,6 +203,7 @@ export default function TreatmentsDropdown() {
                                             Advanced
                                         </NavDropdown.Item>
                                     </div>
+                                    
                                     <NavDropdown.Divider />
                                     {selectedOption === 'male' && (
                                         <div className={styles.containerItemwrap}>

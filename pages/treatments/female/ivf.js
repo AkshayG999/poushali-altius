@@ -40,8 +40,8 @@ const femaleinfertility = () => {
   src="/Female Fertility Icon/female-illustrator.png"
   className={styles.imagewrap}
   alt="My image"
-  width={900}
-  height={300}
+  width={1000}
+  height={400}
 />
      </div>
 
@@ -56,11 +56,11 @@ const femaleinfertility = () => {
 
     <div className={styles.bodywrap}>
     <Image
-  src="/Female Fertility Icon/OI_IT.png"
+  src="/IVF Procedure - Web.png"
   className={styles.imgwrap}
   alt="My image"
   width={400}
-  height={300}
+  height={400}
 />
       {/* <img className={styles.imgwrap} src='/Female Fertility Icon/OI_IT.png' width="400" height="300" alt=''/> */}
 
@@ -99,11 +99,11 @@ const femaleinfertility = () => {
 <div className={styles.bodywrap}>
 <p className={styles.pwrap}>{ "Lorem ipsum dolor sit amet. Sit possimus earum et sapiente incidunt a odit alias sed neque saepe est nostrum quasi est accusamus rerum aut veniam dignissimos. Quo quibusdam aspernatur et provident dolorum sed praesentium velit aut odit deleniti qui maiores tenetur.Et voluptatem dolorem est optio harum eos dignissimos repellat aut ipsum itaque id velit veritatis eos dolor veniam ut tenetur sint. Ea doloribus facere ut perspiciatis facilis et totam ullam. Est necessitatibus nostrum et voluptatem iure eos laudantium iure et delectus doloribus et consequatur tenetur et nobis impedit ut aliquid suscipit. Ab nostrum ducimus 33 omnis harum eos delectus aliquid ut neque amet?Vel dignissimos aliquid vel dolores aliquam qui dolorum aspernatur et adipisci voluptas. Sed sint soluta non dicta animi et tenetur reiciendis aut eius labore non nisi fugit rem asperiores quasi quo voluptatem eius. Et galisum dolor ab expedita facilis vel dolorum eius qui temporibus omnis et reiciendis placeat sed tempore voluptas ut totam magni."}</p>
 <Image
-  src="/Female Fertility Icon/ICSI.png"
-  className={styles.imgwrap}
+  src="/When IVF Recommended - Web.png"
+  className={styles.imgivfwrap}
   alt="My image"
-  width={400}
-  height={300}
+  width={500}
+  height={500}
 />
 {/* <img className={styles.imgwrap} src='/Female Fertility Icon/ICSI.png' width="400" height="300" alt=''/> */}
 
