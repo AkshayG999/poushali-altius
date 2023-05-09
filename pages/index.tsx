@@ -1,6 +1,7 @@
 import { gql, GraphQLClient } from 'graphql-request'
 // import Carousel from "react-multi-carousel";
 import TreatmentsDropdown from '@/components/Navbar'
+// import TreatmentsDropdown from '@/components/navtemp'
 import FAQ from '@/components/Faq'
 import SliderDemo from '@/components/SliderDemo'
 import Banner from '@/components/Banner'

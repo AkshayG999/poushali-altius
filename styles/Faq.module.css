@@ -44,3 +44,24 @@
     background-color: rgb(248, 230, 237);
     margin:0px 100px;
 }
+
+@media (max-width: 550px){
+    .faqwrap{
+    
+        box-sizing: border-box;
+        border-style: none;
+        display:flex;
+        align-items:flex-start;
+        justify-content: flex-start;
+        font-family: "Poppins",sans-serif;
+        font-weight: bold;
+        width: 400px;
+        margin-left: 10px;
+    }
+    .faqanswrap{
+        width: 400px;
+        margin-left: 10px;
+        font-size: 12px;
+        line-height: 2;
+    }
+}

@@ -53,20 +53,21 @@ const iui = () => {
 <div className={styles.riskwrap}>
     <h1 className={styles.headingwrap}>{"Potential Risks of IUI"}</h1>
     <p className={styles.pwrap}>{"Lorem ipsum dolor sit amet. Vel libero eveniet non dolor recusandae eum explicab"}</p>
-    <ul type="rounded" className={styles.listwrap}>
-        <li>
+    
+    <ul type="rounded" className={styles.listwrappers}>
+        <li className={styles.list}>
         <span className={styles.spanwrap}> Multiple Pregnancy:</span>
         {"In IUI treatment, the risk of multiple pregnancies is higher due to the possibility of multiple eggs being released and fertilized. Multiple pregnancies can lead to complications such as preterm labor and low birth weight, and increase the risk of maternal and fetal health issues. Proper monitoring and counseling can help reduce this risk."}
         </li>
-        <li>
+        <li className={styles.list}>
         <span className={styles.spanwrap}> Multiple Pregnancy:</span>
         {"IUI increase the chances of having twins or triples"}
         </li>
-        <li>
+        <li className={styles.list}>
         <span className={styles.spanwrap}> Multiple Pregnancy:</span>
         {"IUI increase the chances of having twins or triples"}
         </li>
-        <li>
+        <li className={styles.list}>
         <span className={styles.spanwrap}> Multiple Pregnancy:</span>
         {"IUI increase the chances of having twins or triples"}
         </li>

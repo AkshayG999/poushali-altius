@@ -20,21 +20,6 @@ export default function TreatmentsDropdown() {
         setKeepOpen(true);
     };
 
-    const redirectUrl = 'https://fertilityhospital.vercel.app/male/maleinfertility';
-
-    const handleClick = () => {
-        window.location.href = redirectUrl;
-    }
-    const redirectUrlf = 'https://fertilityhospital.vercel.app/female/femaleinfertility';
-
-    const handleClickf = () => {
-        window.location.href = redirectUrlf;
-    }
-    const redirectUrla = 'https://fertilityhospital.vercel.app/advanced/advance';
-
-    const handleClicka = () => {
-        window.location.href = redirectUrla;
-    }
 
     const redirectUrlC = 'https://altiushospital.com/contact-us/';
 
@@ -70,6 +55,120 @@ export default function TreatmentsDropdown() {
         window.location.href = redirectUrlaw;
     }
 
+
+    // -------------------Treatments-----------------------//
+
+        // ..................MALE....................//
+    const redirectUrlandro = 'https://fertilityhospital.vercel.app/treatments/male/andrology';
+
+    const handleClickandro = () => {
+        window.location.href = redirectUrlandro;
+    }
+    const redirectUrlcasa = 'https://fertilityhospital.vercel.app/treatments/male/casa';
+
+    const handleClickcasa = () => {
+        window.location.href = redirectUrlcasa;
+    }
+    const redirectUrlsf = 'https://fertilityhospital.vercel.app/treatments/male/semen-freezing';
+
+    const handleClicksf = () => {
+        window.location.href = redirectUrlsf;
+    }
+    const redirectUrlsd = 'https://fertilityhospital.vercel.app/treatments/male/sperm-donation';
+
+    const handleClicksd = () => {
+        window.location.href = redirectUrlsd;
+    }
+    const redirectUrltp = 'https://fertilityhospital.vercel.app/treatments/male/tesa-pesa';
+
+    const handleClicktp = () => {
+        window.location.href = redirectUrltp;
+    }
+    const redirectUrlvc = 'https://fertilityhospital.vercel.app/treatments/male/varicocele';
+
+    const handleClickvc = () => {
+        window.location.href = redirectUrlvc;
+    }
+    // ..................FEMALE....................//
+    const redirectUrled = 'https://fertilityhospital.vercel.app/treatments/female/egg-donation';
+
+    const handleClicked = () => {
+        window.location.href = redirectUrled;
+    }
+    const redirectUrlemd = 'https://fertilityhospital.vercel.app/treatments/female/embryo-donation';
+
+    const handleClickemd = () => {
+        window.location.href = redirectUrlemd;
+    }
+    const redirectUrlfet = 'https://fertilityhospital.vercel.app/treatments/female/fet';
+
+    const handleClickfet = () => {
+        window.location.href = redirectUrlfet;
+    }
+    const redirectUrlh = 'https://fertilityhospital.vercel.app/treatments/female/hysteroscopy';
+
+    const handleClickh = () => {
+        window.location.href = redirectUrlh;
+    }
+    const redirectUrlicsi = 'https://fertilityhospital.vercel.app/treatments/female/icsi';
+
+    const handleClickicsi = () => {
+        window.location.href = redirectUrlicsi;
+    }
+    const redirectUrliui = 'https://fertilityhospital.vercel.app/treatments/female/iui';
+
+    const handleClickiui = () => {
+        window.location.href = redirectUrliui;
+    }
+    const redirectUrlivf = 'https://fertilityhospital.vercel.app/treatments/female/ivf';
+
+    const handleClickivf = () => {
+        window.location.href = redirectUrlivf;
+    }
+    const redirectUrllp = 'https://fertilityhospital.vercel.app/treatments/female/laparoscopy';
+
+    const handleClicklp = () => {
+        window.location.href = redirectUrllp;
+    }
+    const redirectUrloi = 'https://fertilityhospital.vercel.app/treatments/female/oi-it';
+
+    const handleClickoi = () => {
+        window.location.href = redirectUrloi;
+    }
+    const redirectUrlsg = 'https://fertilityhospital.vercel.app/treatments/female/surrogacy';
+
+    const handleClicksg = () => {
+        window.location.href = redirectUrlsg;
+    }
+
+
+    // ..................ADVANCED....................//
+    const redirectUrler = 'https://fertilityhospital.vercel.app/treatments/advanced/endometrial-rejuvenation';
+
+    const handleClicker = () => {
+        window.location.href = redirectUrler;
+    }
+    const redirectUrlmacs = 'https://fertilityhospital.vercel.app/treatments/advanced/macs';
+    
+    const handleClickmacs = () => {
+        window.location.href = redirectUrlmacs;
+    }
+    const redirectUrlpc = 'https://fertilityhospital.vercel.app/treatments/advanced/picsi';
+    
+    const handleClickpc = () => {
+        window.location.href = redirectUrlpc;
+    }
+    const redirectUrlps = 'https://fertilityhospital.vercel.app/treatments/advanced/preservation';
+    
+    const handleClickps = () => {
+        window.location.href = redirectUrlps;
+    }
+    const redirectUrlst = 'https://fertilityhospital.vercel.app/treatments/advanced/sequential-transfer';
+    
+    const handleClickst = () => {
+        window.location.href = redirectUrlst;
+    }
+
     // ------------- resources--------------//
 
     const redirectUrlb = 'https://altiushospital.com/blog2/';
@@ -82,19 +181,10 @@ export default function TreatmentsDropdown() {
     const handleClickv = () => {
         window.location.href = redirectUrlv;
     }
-    // const redirectUrlfaq = 'https://altiushospital.com/awards/';
 
-    // const handleClickfaq = () => {
-    //     window.location.href = redirectUrlfaq;
-    // }
-    // const redirectUrlmf = 'https://altiushospital.com/awards/';
 
-    // const handleClickmf = () => {
-    //     window.location.href = redirectUrlmf;
-    // }
-    
-    
-    
+
+
     return (
         <div className={styles.containernav}>
             <Navbar bg="light" expand="lg">
@@ -148,7 +238,7 @@ export default function TreatmentsDropdown() {
                                         {/* <img className={styles.containerimg} src="/fertility icon transparent.png"/> */}
                                         CSR
                                     </NavDropdown.Item>
-                                    
+
                                     <NavDropdown.Item onClick={handleClickaw} className={styles.containerItemlist} href="#action/3.4">
                                         <Image
                                             src="/fertility icon transparent.png"
@@ -170,8 +260,8 @@ export default function TreatmentsDropdown() {
                                     onMouseEnter={() => setKeepOpen(true)}
                                     onMouseLeave={() => setKeepOpen(false)}
                                 >
-                               
-                                    <div className={styles.containerItemhwrapper}>
+
+                                    <div className={styles.containerItemhwrapper }>
                                         <NavDropdown.Item activee={selectedOption === 'male'} className={styles.containerItemh} onClick={() => handleOptionSelect('male')}>
                                             <Image
                                                 src="/fertility icon transparent.png"
@@ -203,257 +293,243 @@ export default function TreatmentsDropdown() {
                                             Advanced
                                         </NavDropdown.Item>
                                     </div>
-                                    
+
                                     <NavDropdown.Divider />
                                     {selectedOption === 'male' && (
                                         <div className={styles.containerItemwrap}>
-                                            <div className={styles.containerItemgrid}>
-                                                <NavDropdown.Item onClick={handleClick} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/Varicocele transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    Varicocele
-                                                </NavDropdown.Item>
-                                                <NavDropdown.Item onClick={handleClick} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/TESA_PESA transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    CASA
-                                                </NavDropdown.Item>
-                                                <NavDropdown.Item onClick={handleClick} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/Andrology Services transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    Andrology
-                                                </NavDropdown.Item>
-                                            </div>
-                                            <div className={styles.containerItemgrid}>
-                                                <NavDropdown.Item onClick={handleClick} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/TESA_PESA transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    TESA/PESA
-                                                </NavDropdown.Item>
-                                                <NavDropdown.Item onClick={handleClick} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/Semen Freezing transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    Semen Freezing
-                                                </NavDropdown.Item>
-                                                <NavDropdown.Item onClick={handleClick} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/Sperm Donation transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    sperm Donation
-                                                </NavDropdown.Item>
-                                            </div>
+
+                                            <NavDropdown.Item onClick={handleClickvc} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/Varicocele transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
+                                                Varicocele
+                                            </NavDropdown.Item>
+                                            <NavDropdown.Item onClick={handleClickcasa} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/TESA_PESA transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
+                                                CASA
+                                            </NavDropdown.Item>
+                                            <NavDropdown.Item onClick={redirectUrlandro} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/Andrology Services transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
+                                                Andrology
+                                            </NavDropdown.Item>
+
+                                            <NavDropdown.Item onClick={handleClicktp} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/TESA_PESA transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
+                                                TESA/PESA
+                                            </NavDropdown.Item>
+                                            <NavDropdown.Item onClick={handleClicksf} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/Semen Freezing transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
+                                                Semen Freezing
+                                            </NavDropdown.Item>
+                                            <NavDropdown.Item onClick={handleClicksd} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/Sperm Donation transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
+                                                sperm Donation
+                                            </NavDropdown.Item>
+
                                         </div>
                                     )}
                                     {selectedOption === 'female' && (
                                         <div className={styles.containerItemwrap}>
-                                            <div className={styles.containerItemgrid}>
-                                                <NavDropdown.Item onClick={handleClickf} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/OI_IT transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    OI/IT
-                                                </NavDropdown.Item>
-                                                <NavDropdown.Item onClick={handleClickf} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/ICSI transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    ICSI
-                                                </NavDropdown.Item>
-                                                <NavDropdown.Item onClick={handleClickf} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/IUI transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    IUI
-                                                </NavDropdown.Item>
-                                            </div>
-                                            <div className={styles.containerItemgrid}>
-                                                <NavDropdown.Item onClick={handleClickf} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/FET transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
+
+                                            <NavDropdown.Item onClick={handleClickoi} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/OI_IT transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
+                                                OI/IT
+                                            </NavDropdown.Item>
+                                            <NavDropdown.Item onClick={handleClickicsi} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/ICSI transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
+                                                ICSI
+                                            </NavDropdown.Item>
+                                            <NavDropdown.Item onClick={handleClickiui} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/IUI transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
+                                                IUI
+                                            </NavDropdown.Item>
+
+                                            <NavDropdown.Item onClick={handleClickfet} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/FET transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
 
 
-                                                    FET
-                                                </NavDropdown.Item>
-                                                <NavDropdown.Item onClick={handleClickf} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/IVF transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    IVF
-                                                </NavDropdown.Item>
+                                                FET
+                                            </NavDropdown.Item>
+                                            <NavDropdown.Item onClick={handleClickivf} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/IVF transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
+                                                IVF
+                                            </NavDropdown.Item>
 
-                                                <NavDropdown.Item onClick={handleClickf} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/Laparoscopy transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    Laparoscopy
-                                                </NavDropdown.Item>
-                                                <NavDropdown.Item onClick={handleClickf} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/Hysteroscopy transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    Hysteroscopy
-                                                </NavDropdown.Item>
-                                            </div>
-                                            <div className={styles.containerItemgrid}>
-                                            <NavDropdown.Item onClick={handleClickf} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/Surrogacy transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    Surrogacy
-                                                </NavDropdown.Item>
+                                            <NavDropdown.Item onClick={handleClicklp} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/Laparoscopy transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
+                                                Laparoscopy
+                                            </NavDropdown.Item>
+                                            <NavDropdown.Item onClick={handleClickh} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/Hysteroscopy transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
+                                                Hysteroscopy
+                                            </NavDropdown.Item>
 
-                                                <NavDropdown.Item onClick={handleClickf} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/Egg Donation transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    Egg donation
-                                                </NavDropdown.Item>
-                                                <NavDropdown.Item onClick={handleClickf} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/Embryo Donation transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    Embryo Donation
-                                                </NavDropdown.Item>
-                                            </div>
+                                            <NavDropdown.Item onClick={handleClicksg} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/Surrogacy transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
+                                                Surrogacy
+                                            </NavDropdown.Item>
+
+                                            <NavDropdown.Item onClick={handleClicked} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/Egg Donation transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
+                                                Egg donation
+                                            </NavDropdown.Item>
+                                            <NavDropdown.Item onClick={handleClickemd} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/Embryo Donation transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
+                                                Embryo Donation
+                                            </NavDropdown.Item>
+
 
                                         </div>
                                     )}
                                     {selectedOption === 'advanced' && (
                                         <div className={styles.containerItemwrap}>
-                                            <div className={styles.containerItemgrid}>
-                                                <NavDropdown.Item onClick={handleClicka} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/Freezing or Preservation transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    Preservation
-                                                </NavDropdown.Item>
-                                                <NavDropdown.Item onClick={handleClicka} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/MACS transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    MACS
-                                                </NavDropdown.Item>
-                                                <NavDropdown.Item onClick={handleClicka} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/PICSI transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    PICSI
-                                                </NavDropdown.Item>
-                                            </div>
-                                            <div className={styles.containerItemgrid}>
-                                                <NavDropdown.Item onClick={handleClicka} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/Sequential Transfer transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    Sequential transfer
-                                                </NavDropdown.Item>
-                                                <NavDropdown.Item onClick={handleClicka} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/Endometrial Rejuvenation transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    Endometrial
-                                                </NavDropdown.Item>
-                                                <NavDropdown.Item onClick={handleClicka} className={styles.containerIteminfertility} href="#action/3.1">
-                                                    <Image
-                                                        src="/Sequential Transfer transparent.png"
-                                                        alt="My Image"
-                                                        width={40}
-                                                        height={40}
-                                                        className={styles.containerimg}
-                                                    />
-                                                    Rejuvenation
-                                                </NavDropdown.Item>
-                                            </div>
+
+                                            <NavDropdown.Item onClick={handleClickps} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/Freezing or Preservation transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
+                                                Preservation
+                                            </NavDropdown.Item>
+                                            <NavDropdown.Item onClick={handleClickmacs} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/MACS transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
+                                                MACS
+                                            </NavDropdown.Item>
+                                            <NavDropdown.Item onClick={handleClicker} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/Endometrial Rejuvenation transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
+                                                Endometrial Rejuvenation
+                                            </NavDropdown.Item>
+
+                                            <NavDropdown.Item onClick={handleClickst} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/Sequential Transfer transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
+                                                Sequential transfer
+                                            </NavDropdown.Item>
+                                            <NavDropdown.Item onClick={handleClickpc} className={styles.containerIteminfertility} href="#action/3.1">
+                                                <Image
+                                                    src="/PICSI transparent.png"
+                                                    alt="My Image"
+                                                    width={40}
+                                                    height={40}
+                                                    className={styles.containerimg}
+                                                />
+                                                PICSI
+                                            </NavDropdown.Item>
+
                                         </div>
                                     )}
                                 </NavDropdown>
@@ -519,7 +595,7 @@ export default function TreatmentsDropdown() {
                                         {/* <img className={styles.containerimg} src="/fertility icon transparent.png"/> */}
                                         FAQs
                                     </NavDropdown.Item>
-                                    
+
                                     <NavDropdown.Item className={styles.containerItemlist} href="#action/3.4">
                                         <Image
                                             src="/fertility icon transparent.png"

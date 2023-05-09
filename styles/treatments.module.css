@@ -1,3 +1,6 @@
+/*--------------- ivf----------------- */
+
+
 .bodymwrap{
     background-color: rgb(248, 230, 237);  
 }
@@ -12,12 +15,9 @@
     font: 500 100%/1.5 system-ui;
     background-color: rgb(248, 230, 237);
   }
+
   .imgwrap {
-    /* width: 100%;
-    height: 100%; */
     box-sizing: border-box;
-    /* border-style: groove;
-    border-width: 10px; */
     margin-left: 80px;
   }
   .pmwrap{
@@ -127,11 +127,80 @@
 }
 .spanwrap{
     font-weight: bold;
+    line-height: 2;
 }
+@media (max-width: 550px) {
+.imagebwrap{
+  height:450px !important;
+  width:auto !important;
+  
+}
+.imagewrap{
+  height:250px !important;
+  width:500px !important;
+}
+/* ivf */
+.imgwrap{
+  margin-left: -40px;
+}
+.imgivfwrap{
+  height:350px !important;
+  width:350px !important;
+}
+/* .bodywrap{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.header{
+  font-size: 30px;
+}
+.header2{
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.header3{
+  font-size: 12px;
+}
+.parawrap{
+  font-size: 18px;
+
+  
+}
+.btnwrap{
+  padding-top:20px;
+}
+.btn1{
+  padding:8px 30px;
+  
+}
+.pmwrap{
+  margin:5px 0px;
+  
+}
+.pwrap{
+  color: rgb(50, 48, 48);
+  margin: 5px -30px;
+  text-align: left;
+  line-height: 2;
+  font-family: "Poppins",sans-serif;
+  
+}
+.paragraphwrap{
+  margin:10px 50px;
+}
+.headingwrap{
+  font-size: 25px;
+  margin:0px 15px;
+}
+}
+
 
 /* ----------------------IUI--------------------- */
 .body{
   background-color: rgb(248, 230, 237);
+  
 }
 .grid {
   display: flex;
@@ -174,11 +243,12 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin:10px 100px;
 
 }
-.listwrap{
+.listwrappers{
   line-height: 2.5;
-  margin:10px 100px;
+  
 }
 .heading3{
   margin-left: 100px;
@@ -201,6 +271,12 @@
   font-family: "Poppins",sans-serif;
   text-align: left;
 }
+.headingh{
+  color: #eb4c87;
+  text-shadow: 0 5px 10px rgba(0,0,0,.5);
+  font-family: "Poppins",sans-serif;
+  text-align: left;
+}
 .piuiwrap{
   padding-top: 30px;
   font-family: "Poppins",sans-serif;
@@ -213,7 +289,136 @@
   border-width: 5px;
   border-color: #eb4c87;
 }
+@media (max-width: 550px) {
+  .body{
+    background-color: rgb(248, 230, 237);
+    
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 50px;
+    padding-right: 60px;
+    font: 500 100%/1.5 system-ui;
+    background-color: rgb(248, 230, 237);
+  }
+  .gridding {
+    flex: 1;
+    border-left: hidden;
+    padding-left: 0px;
+  }
+  .iuiimgwrap{
+    margin-left: 0px;
+    border-radius: 15px;
+    width:350px;
+    height:300px;
+  }
+  .riskwrap{
+    margin:10px 50px;
+  
+  }
+  .piuiwrap{
+    padding-top: 30px;
+    font-family: "Poppins",sans-serif;
+    text-align: left;
+    padding-right:30px;
+    padding-bottom: 20px;
+  }
+}
 
+/* 
+-----------------------laparoscopy---------------------- */
+
+.limgwrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.limgwrap{
+  border-radius: 10px;
+}
+.headingl{
+  color: #eb4c87;
+  text-shadow: 0 5px 10px rgba(0,0,0,.5);
+  font-family: "Poppins",sans-serif;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.detailswrapper{
+  margin:50px 100px;
+}
+.listwrap{
+  font-weight: bold;
+  font-family: "Poppins",sans-serif;
+}
+
+/* -------------------egg donation-------------- */
+.span{
+  font-family: "Poppins",sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+@media (max-width: 550px) {
+.limgwrap{
+  width:350px;
+  height: 300px;
+}
+.piuiwrap{
+  margin:0px -40px;
+}
+.headingiui{
+  margin:0px -30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+}
+/* sperm freezing */
+
+.span{
+  font-family: "Poppins",sans-serif;
+  text-align: left;
+  margin-left: 100px;
+}
+/* hysteroscopy */
+.phwrap{
+  margin: 50px 100px;
+}
+@media (max-width: 550px) {
+.phwrap{
+  margin: 20px 30px;
+}
+.headingh{
+  color: #eb4c87;
+  text-shadow: 0 5px 10px rgba(0,0,0,.5);
+  font-family: "Poppins",sans-serif;
+  text-align: center;
+  margin: 20px -50px;
+}
+
+.spanwrap{
+  font-size:15px;
+  
+}
+.spant{
+  font-weight: bold;
+}
+
+.span{
+  margin-left: 30px;
+}
+}
+
+/* tesa-pesa */
+
+.spant{
+  font-weight: bold;
+  font-size:20px;
+}
   @media (max-width: 650px) {
     .bodywrap {
       display: block;
@@ -222,7 +427,7 @@
     .pwrap {
       position: relative;
       color: black;
-      padding: 1rem;
+      padding: 0rem;
       
       /* background: rgba(rgb(10, 0, 0), 0.8); */
     }

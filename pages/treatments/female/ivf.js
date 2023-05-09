@@ -17,7 +17,7 @@ const femaleinfertility = () => {
     <NavbarF/>
 
     <Card className={styles.cardwrap}>
-      <Image src="/pregnancy.png"   className={styles.imagewrap}
+      <Image src="/pregnancy.png"   className={styles.imagebwrap}
   width={1600}
   height={600} alt="Card image" />
       <Card.ImgOverlay className={styles.overwrap}>

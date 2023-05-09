@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { NavDropdown } from 'react-bootstrap';
 import React from 'react';
-import styles from '../styles/Navbar.module.css';
+import styles from '../styles/Nav.module.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -47,7 +47,54 @@ export default function TreatmentsDropdown() {
         window.location.href = redirectUrlA;
     }
 
+    // ---------------about us-----------------
 
+    const redirectUrlvm = 'https://altiushospital.com/our-vision-and-mission/';
+
+    const handleClickvm = () => {
+        window.location.href = redirectUrlvm;
+    }
+    const redirectUrlm = 'https://altiushospital.com/management/';
+
+    const handleClickm = () => {
+        window.location.href = redirectUrlm;
+    }
+    const redirectUrlcsr = 'https://altiushospital.com/corporate-social-responsibility/';
+
+    const handleClickcsr = () => {
+        window.location.href = redirectUrlcsr;
+    }
+    const redirectUrlaw = 'https://altiushospital.com/awards/';
+
+    const handleClickaw = () => {
+        window.location.href = redirectUrlaw;
+    }
+
+    // ------------- resources--------------//
+
+    const redirectUrlb = 'https://altiushospital.com/blog2/';
+
+    const handleClickb = () => {
+        window.location.href = redirectUrlb;
+    }
+    const redirectUrlv = 'https://altiushospital.com/video-gallery/';
+
+    const handleClickv = () => {
+        window.location.href = redirectUrlv;
+    }
+    // const redirectUrlfaq = 'https://altiushospital.com/awards/';
+
+    // const handleClickfaq = () => {
+    //     window.location.href = redirectUrlfaq;
+    // }
+    // const redirectUrlmf = 'https://altiushospital.com/awards/';
+
+    // const handleClickmf = () => {
+    //     window.location.href = redirectUrlmf;
+    // }
+    
+    
+    
     return (
         <div className={styles.containernav}>
             <Navbar bg="light" expand="lg">
@@ -68,63 +115,6 @@ export default function TreatmentsDropdown() {
                         <Navbar.Toggle aria-controls="basic-navbar-nav" className={styles.navwrap} />
                         <Navbar.Collapse id="basic-navbar-nav" >
                             <Nav className={styles.mrauto}>
-                                <NavDropdown className={styles.containertitle} title="About us" id="basicnavdropdown">
-                                    <NavDropdown.Item className={styles.containerItemlist} href="#action/3.1">
-                                        <Image
-                                            src="/fertility icon transparent.png"
-                                            alt="My Image"
-                                            width={40}
-                                            height={40}
-                                            className={styles.containerimg}
-                                        />
-                                        {/* <img className={styles.containerimg} src="/fertility icon transparent.png"/> */}
-                                        Founders & Directors</NavDropdown.Item>
-                                    <NavDropdown.Item className={styles.containerItemlist} href="#action/3.2">
-                                        <Image
-                                            src="/fertility icon transparent.png"
-                                            alt="My Image"
-                                            width={40}
-                                            height={40}
-                                            className={styles.containerimg}
-                                        />
-                                        {/* <img className={styles.containerimg} src="/fertility icon transparent.png"/> */}
-                                        Vission & Mission
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Item className={styles.containerItemlist} href="#action/3.3">
-                                        <Image
-                                            src="/fertility icon transparent.png"
-                                            alt="My Image"
-                                            width={40}
-                                            height={40}
-                                            className={styles.containerimg}
-                                        />
-                                        {/* <img className={styles.containerimg} src="/fertility icon transparent.png"/> */}
-                                        CSR
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Item className={styles.containerItemlist} href="#action/3.3">
-                                        <Image
-                                            src="/fertility icon transparent.png"
-                                            alt="My Image"
-                                            width={40}
-                                            height={40}
-                                            className={styles.containerimg}
-                                        />
-                                        {/* <img className={styles.containerimg} src="/fertility icon transparent.png"/> */}
-                                        Mc
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Divider />
-                                    <NavDropdown.Item className={styles.containerItemlist} href="#action/3.4">
-                                        <Image
-                                            src="/fertility icon transparent.png"
-                                            alt="My Image"
-                                            width={40}
-                                            height={40}
-                                            className={styles.containerimg}
-                                        />
-                                        {/* <img className={styles.containerimg} src="/fertility icon transparent.png"/> */}
-                                        Awards
-                                    </NavDropdown.Item>
-                                </NavDropdown>
 
                                 <NavDropdown
                                     className={styles.containertitle}
@@ -134,8 +124,9 @@ export default function TreatmentsDropdown() {
                                     onMouseEnter={() => setKeepOpen(true)}
                                     onMouseLeave={() => setKeepOpen(false)}
                                 >
+                               
                                     <div className={styles.containerItemhwrapper}>
-                                        <NavDropdown.Item active={selectedOption === 'male'} className={styles.containerItemh} onClick={() => handleOptionSelect('male')}>
+                                        <NavDropdown.Item activee={selectedOption === 'male'} className={styles.containerItemh} onClick={() => handleOptionSelect('male')}>
                                             <Image
                                                 src="/fertility icon transparent.png"
                                                 alt="My Image"
@@ -145,7 +136,7 @@ export default function TreatmentsDropdown() {
                                             />
                                             Male
                                         </NavDropdown.Item>
-                                        <NavDropdown.Item active={selectedOption === 'female'} className={styles.containerItemh} onClick={() => handleOptionSelect('female')}>
+                                        <NavDropdown.Item activee={selectedOption === 'female'} className={styles.containerItemh} onClick={() => handleOptionSelect('female')}>
                                             <Image
                                                 src="/fertility icon transparent.png"
                                                 alt="My Image"
@@ -155,7 +146,7 @@ export default function TreatmentsDropdown() {
                                             />
                                             Female
                                         </NavDropdown.Item>
-                                        <NavDropdown.Item active={selectedOption === 'advanced'} className={styles.containerItemh} onClick={() => handleOptionSelect('advanced')}>
+                                        <NavDropdown.Item activee={selectedOption === 'advanced'} className={styles.containerItemh} onClick={() => handleOptionSelect('advanced')}>
                                             <Image
                                                 src="/fertility icon transparent.png"
                                                 alt="My Image"
@@ -166,10 +157,11 @@ export default function TreatmentsDropdown() {
                                             Advanced
                                         </NavDropdown.Item>
                                     </div>
+                                    
                                     <NavDropdown.Divider />
                                     {selectedOption === 'male' && (
                                         <div className={styles.containerItemwrap}>
-                                            <div className={styles.containerItemgrid}>
+                                         
                                                 <NavDropdown.Item onClick={handleClick} className={styles.containerIteminfertility} href="#action/3.1">
                                                     <Image
                                                         src="/Varicocele transparent.png"
@@ -200,8 +192,7 @@ export default function TreatmentsDropdown() {
                                                     />
                                                     Andrology
                                                 </NavDropdown.Item>
-                                            </div>
-                                            <div className={styles.containerItemgrid}>
+
                                                 <NavDropdown.Item onClick={handleClick} className={styles.containerIteminfertility} href="#action/3.1">
                                                     <Image
                                                         src="/TESA_PESA transparent.png"
@@ -232,12 +223,12 @@ export default function TreatmentsDropdown() {
                                                     />
                                                     sperm Donation
                                                 </NavDropdown.Item>
-                                            </div>
+                                            
                                         </div>
                                     )}
                                     {selectedOption === 'female' && (
                                         <div className={styles.containerItemwrap}>
-                                            <div className={styles.containerItemgrid}>
+                                            
                                                 <NavDropdown.Item onClick={handleClickf} className={styles.containerIteminfertility} href="#action/3.1">
                                                     <Image
                                                         src="/OI_IT transparent.png"
@@ -268,8 +259,7 @@ export default function TreatmentsDropdown() {
                                                     />
                                                     IUI
                                                 </NavDropdown.Item>
-                                            </div>
-                                            <div className={styles.containerItemgrid}>
+
                                                 <NavDropdown.Item onClick={handleClickf} className={styles.containerIteminfertility} href="#action/3.1">
                                                     <Image
                                                         src="/FET transparent.png"
@@ -313,8 +303,7 @@ export default function TreatmentsDropdown() {
                                                     />
                                                     Hysteroscopy
                                                 </NavDropdown.Item>
-                                            </div>
-                                            <div className={styles.containerItemgrid}>
+
                                             <NavDropdown.Item onClick={handleClickf} className={styles.containerIteminfertility} href="#action/3.1">
                                                     <Image
                                                         src="/Surrogacy transparent.png"
@@ -346,13 +335,13 @@ export default function TreatmentsDropdown() {
                                                     />
                                                     Embryo Donation
                                                 </NavDropdown.Item>
-                                            </div>
+                                         
 
                                         </div>
                                     )}
                                     {selectedOption === 'advanced' && (
                                         <div className={styles.containerItemwrap}>
-                                            <div className={styles.containerItemgrid}>
+                                            
                                                 <NavDropdown.Item onClick={handleClicka} className={styles.containerIteminfertility} href="#action/3.1">
                                                     <Image
                                                         src="/Freezing or Preservation transparent.png"
@@ -383,8 +372,7 @@ export default function TreatmentsDropdown() {
                                                     />
                                                     PICSI
                                                 </NavDropdown.Item>
-                                            </div>
-                                            <div className={styles.containerItemgrid}>
+                                    
                                                 <NavDropdown.Item onClick={handleClicka} className={styles.containerIteminfertility} href="#action/3.1">
                                                     <Image
                                                         src="/Sequential Transfer transparent.png"
@@ -415,105 +403,9 @@ export default function TreatmentsDropdown() {
                                                     />
                                                     Rejuvenation
                                                 </NavDropdown.Item>
-                                            </div>
+                                           
                                         </div>
                                     )}
-                                </NavDropdown>
-                                {/*---------------- Cost-------------- */}
-                                <NavDropdown className={styles.containertitle} title="Cost" id="basic-nav-dropdown">
-                                    <NavDropdown.Item className={styles.containerItemlist} href="#action/3.1">
-                                        <Image
-                                            src="/fertility icon transparent.png"
-                                            alt="My Image"
-                                            width={40}
-                                            height={40}
-                                            className={styles.containerimg}
-                                        />
-                                        {/* <img className={styles.containerimg} src="/fertility icon transparent.png"/> */}
-                                        Action
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Item className={styles.containerItemlist} href="#action/3.2">
-                                        <Image
-                                            src="/fertility icon transparent.png"
-                                            alt="My Image"
-                                            width={40}
-                                            height={40}
-                                            className={styles.containerimg}
-                                        />
-                                        {/* <img className={styles.containerimg} src="/fertility icon transparent.png"/> */}
-                                        Another action
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Item className={styles.containerItemlist} href="#action/3.3">
-                                        <Image
-                                            src="/fertility icon transparent.png"
-                                            alt="My Image"
-                                            width={40}
-                                            height={40}
-                                            className={styles.containerimg}
-                                        />
-                                        {/* <img className={styles.containerimg} src="/fertility icon transparent.png"/> */}
-                                        Something
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Divider />
-                                    <NavDropdown.Item className={styles.containerItemlist} href="#action/3.4">
-                                        <Image
-                                            src="/fertility icon transparent.png"
-                                            alt="My Image"
-                                            width={40}
-                                            height={40}
-                                            className={styles.containerimg}
-                                        />
-                                        {/* <img className={styles.containerimg} src="/fertility icon transparent.png"/> */}
-                                        Separated link
-                                    </NavDropdown.Item>
-                                </NavDropdown>
-                                {/*---------------- Resources-------------- */}
-                                <NavDropdown className={styles.containertitle} title="Resources" id="basic-nav-dropdown">
-                                    <NavDropdown.Item className={styles.containerItemlist} href="#action/3.1">
-                                        <Image
-                                            src="/fertility icon transparent.png"
-                                            alt="My Image"
-                                            width={40}
-                                            height={40}
-                                            className={styles.containerimg}
-                                        />
-                                        {/* <img className={styles.containerimg} src="/fertility icon transparent.png"/> */}
-                                        Blogs
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Item className={styles.containerItemlist} href="#action/3.2">
-                                        <Image
-                                            src="/fertility icon transparent.png"
-                                            alt="My Image"
-                                            width={40}
-                                            height={40}
-                                            className={styles.containerimg}
-                                        />
-                                        {/* <img className={styles.containerimg} src="/fertility icon transparent.png"/> */}
-                                        Videos
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Item className={styles.containerItemlist} href="#action/3.3">
-                                        <Image
-                                            src="/fertility icon transparent.png"
-                                            alt="My Image"
-                                            width={40}
-                                            height={40}
-                                            className={styles.containerimg}
-                                        />
-                                        {/* <img className={styles.containerimg} src="/fertility icon transparent.png"/> */}
-                                        FAQs
-                                    </NavDropdown.Item>
-                                    <NavDropdown.Divider />
-                                    <NavDropdown.Item className={styles.containerItemlist} href="#action/3.4">
-                                        <Image
-                                            src="/fertility icon transparent.png"
-                                            alt="My Image"
-                                            width={40}
-                                            height={40}
-                                            className={styles.containerimg}
-                                        />
-                                        {/* <img className={styles.containerimg} src="/fertility icon transparent.png"/> */}
-                                        Myth & Fact
-                                    </NavDropdown.Item>
                                 </NavDropdown>
                             </Nav>
 
